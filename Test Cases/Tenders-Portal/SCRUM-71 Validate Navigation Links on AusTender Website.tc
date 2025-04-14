@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Validate Navigation Links on AusTender Website&#xd;
+Description: </description>
+   <name>SCRUM-71 Validate Navigation Links on AusTender Website</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10091&quot;:&quot;@Navigation\nFeature: Validate Navigation Links on AusTender Website\n\n  Background:\n    Given I Navigate to [https://www.tenders.gov.au/|https://www.tenders.gov.au/]\n\n  @TopNavigation\n  Scenario: Validate Top Menu Navigation Works\n    When I Click on the menu Approaches to Market\n    Then I should see the heading Current ATM List\n\nWhen I Click on the menu Contract Notices\nThen I should see the heading Contract Notices\n\nWhen I Click on the menu Standing Offers\nThen I should see the heading Standing Offers\n\nWhen I Click on the menu Planned Procurements\nThen I should see the heading Planned Procurements\n\nWhen I Click on the menu Senate Order\nThen I should see the heading Senate Order\n\nWhen I Click on the menu Help\nThen I should see the heading Help\n\n  @SideNavigation\n  Scenario: Validate Side Navigation Links Work\n    Given I Navigate to [https://www.tenders.gov.au/|https://www.tenders.gov.au/]\n    When I Click on the menu Info \u0026 Links\n    And I Click on the side menu Agency Addresses\n    Then I should see the heading Agency Addresses\n\nWhen I Click on the side menu Policy Documents\nThen I should see the heading Policy Documents&quot;,&quot;customfield_10019&quot;:&quot;0|i000fj:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://alkemiz-au.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;SCRUM&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;TaaS&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Validate Navigation Links on AusTender Website&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;jag.sethi@alkemiz.com.au&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Jag Sethi&quot;,&quot;accountId&quot;:&quot;712020:5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/user?accountId\u003d712020%3A5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/SCRUM-71/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/10165&quot;,&quot;key&quot;:&quot;SCRUM-71&quot;,&quot;id&quot;:10165}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>@Navigation
+Feature: Validate Navigation Links on AusTender Website
+
+  Background:
+    Given I Navigate to [https://www.tenders.gov.au/|https://www.tenders.gov.au/]
+
+  @TopNavigation
+  Scenario: Validate Top Menu Navigation Works
+    When I Click on the menu Approaches to Market
+    Then I should see the heading Current ATM List
+
+When I Click on the menu Contract Notices
+Then I should see the heading Contract Notices
+
+When I Click on the menu Standing Offers
+Then I should see the heading Standing Offers
+
+When I Click on the menu Planned Procurements
+Then I should see the heading Planned Procurements
+
+When I Click on the menu Senate Order
+Then I should see the heading Senate Order
+
+When I Click on the menu Help
+Then I should see the heading Help
+
+  @SideNavigation
+  Scenario: Validate Side Navigation Links Work
+    Given I Navigate to [https://www.tenders.gov.au/|https://www.tenders.gov.au/]
+    When I Click on the menu Info &amp; Links
+    And I Click on the side menu Agency Addresses
+    Then I should see the heading Agency Addresses
+
+When I Click on the side menu Policy Documents
+Then I should see the heading Policy Documents</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>11be12ee-21d9-4e47-a8a8-631f2a5758cb</testCaseGuid>
+</TestCaseEntity>

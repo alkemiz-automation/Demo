@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: User Registration Page&#xd;
+Description: h2. Feature: User Registration Page
+
+URL: [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]
+
+h3. Scenario: Verify Registration Fields
+
+·         Given I navigate to [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]
+
+·         Then I should see textboxes for Email, Password, Confirm Password, Organisation Name, and Contact Details
+
+·         And I should see the Register button</description>
+   <name>SCRUM-70 User Registration Page</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10091&quot;:&quot;Feature: User Registration Page\nURL: [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]\nScenario: Verify Registration Fields\nGiven I navigate to [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]\nThen I should see textboxes for Email, Password, Confirm Password, Organisation Name, and Contact Details\nAnd I should see the Register button&quot;,&quot;customfield_10019&quot;:&quot;0|i000fb:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://alkemiz-au.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;SCRUM&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;TaaS&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;User Registration Page&quot;,&quot;description&quot;:&quot;h2. Feature: User Registration Page\n\nURL: [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]\n\nh3. Scenario: Verify Registration Fields\n\n·         Given I navigate to [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]\n\n·         Then I should see textboxes for Email, Password, Confirm Password, Organisation Name, and Contact Details\n\n·         And I should see the Register button&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;jag.sethi@alkemiz.com.au&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Jag Sethi&quot;,&quot;accountId&quot;:&quot;712020:5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/user?accountId\u003d712020%3A5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/SCRUM-70/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/10136&quot;,&quot;key&quot;:&quot;SCRUM-70&quot;,&quot;id&quot;:10136}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>Feature: User Registration Page
+URL: [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]
+Scenario: Verify Registration Fields
+Given I navigate to [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]
+Then I should see textboxes for Email, Password, Confirm Password, Organisation Name, and Contact Details
+And I should see the Register button</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4aa921bf-21e8-45d3-a6b8-eb96ce35f5a0</testCaseGuid>
+</TestCaseEntity>
