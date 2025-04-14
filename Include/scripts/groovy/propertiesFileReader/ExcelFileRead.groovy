@@ -47,7 +47,6 @@ public class ExcelFileRead {
 
 		file.close();
 		return Data_fromCell
-
 	}
 
 	def String ExcelReadMessages(int rowNum, int cellNum) {
@@ -64,7 +63,6 @@ public class ExcelFileRead {
 
 		file.close();
 		return Data_fromCell
-
 	}
 	def String ExcelReadSheetInfo(int sheetNum, int rowNum, int cellNum){
 		FileInputStream file = new FileInputStream (new File("${RunConfiguration.getProjectDir()}" + FileReaderManager.propertyReaderPage.prop('ExcelFileUrl')))
@@ -111,6 +109,5 @@ public class ExcelFileRead {
 		//workbook.write(fileOut)
 		outFile.close();
 		file.close();
-
 	}
 }

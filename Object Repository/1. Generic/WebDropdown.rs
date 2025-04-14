@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '${ObjectName}')]//following-sibling::div</value>
+         <value>(//label[contains(translate(normalize-space(.), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${LabelName}')]/following::div[contains(@class,'bootstrap-select')][1]//button)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//label[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '${ObjectName}')]//following-sibling::div</value>
-      <webElementGuid>1b6a0e0b-fd9e-4074-b2f7-e68d70199c3b</webElementGuid>
+      <value>(//label[contains(translate(normalize-space(.), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${LabelName}')]/following::div[contains(@class,'bootstrap-select')][1]//button)[1]</value>
+      <webElementGuid>8afcc632-a56b-481b-a71c-83f85eed1646</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

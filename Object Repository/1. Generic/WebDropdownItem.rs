@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(translate(@data-value,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'${ObjectName}')]</value>
+         <value>(//label[contains(translate(normalize-space(.), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${LabelName}')]/following::ul[contains(@class,'inner')]//span[normalize-space(text())='${OptionName}'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[contains(translate(@data-value,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'${ObjectName}')]</value>
-      <webElementGuid>1504050b-d865-42d3-a4a6-171fb2c46cfd</webElementGuid>
+      <value>(//label[contains(translate(normalize-space(.), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${LabelName}')]/following::ul[contains(@class,'inner')]//span[normalize-space(text())='${OptionName}'])[1]</value>
+      <webElementGuid>4bd00275-f863-49eb-8273-76deab9419c1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

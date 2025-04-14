@@ -7,17 +7,18 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'${ObjectName}')]//following-sibling::input | //input[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '${ObjectName}')]</value>
+         <value>(//label[contains(translate(normalize-space(.), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${LabelName}')]/following::input[not(@type='radio') and not(@type='checkbox') and (@type='text' or @type='email' or @type='password' or not(@type))])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//label[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'${ObjectName}')]//following-sibling::input | //input[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '${ObjectName}')]</value>
-      <webElementGuid>fa8b7f0d-c104-4165-9292-ca3fd3675c01</webElementGuid>
+      <value>(//label[contains(translate(normalize-space(.), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${LabelName}')]/following::input[not(@type='radio') and not(@type='checkbox') and (@type='text' or @type='email' or @type='password' or not(@type))])[1]</value>
+      <webElementGuid>0f55957f-efba-4f2c-8b58-d5f4f71e798e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
