@@ -17,4 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/SCRUM-71 Validate Navigation Links on AusTender Website.feature')
+not_run: CucumberKW.runFeatureFile('Include/features/SCRUM-71 Validate Navigation Links on AusTender Website.feature')
+

@@ -17,4 +17,56 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/SCRUM-69 Planned Procurements.feature')
+not_run: CucumberKW.runFeatureFile('Include/features/SCRUM-69 Planned Procurements.feature')
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.tenders.gov.au/')
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Planned Procurements'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_South Bandiana Building Works, VIC'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Current ATM View - EST10524 AusTender/a_Annual Procurement Plan List'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/div_EST10524 South Bandiana Building Works _33adc5'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/h2_Search Results'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Download Results'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Last Updated'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Title'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_Relevance                           _59b6fc'), 
+    'Title', true)
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_Sort'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_2'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Planned Procurements'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_List By Agency'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_-- Please select --'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Administrative Appeals Tribunal'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_-- Please select ---- Please select _a82724'), 
+    '077c76eb-918f-9197-880d-1aa6a58e5874', true)
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/input_Workplace Gender Equality Agency_btn-_b78b20'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Annual Procurement Plan View - Adminis_2c9ef6/a_Planned Procurements'))
+
+WebUI.closeBrowser()
+

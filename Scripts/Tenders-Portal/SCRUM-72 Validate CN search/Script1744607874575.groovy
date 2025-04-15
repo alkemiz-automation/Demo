@@ -17,5 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/SCRUM-70 User Registration Page.feature')
+not_run: CucumberKW.runFeatureFile('Include/features/SCRUM-72 Validate CN search.feature')
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.tenders.gov.au/')
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices'))
+
+WebUI.setText(findTestObject('Object Repository/AusTender/Page_Contract Notices AusTender/input_Use the drop down menu to specify an _43aab4'), 
+    'education')
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notices AusTender/i'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN4144091'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notice View - CN4144091 AusTender/a_Contract Notices'))
+
+WebUI.closeBrowser()
 

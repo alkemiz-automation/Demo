@@ -2,7 +2,7 @@
 Feature: Validate Navigation Links on AusTender Website
 
   Background: 
-    Given I Navigate to [https://www.tenders.gov.au/|https://www.tenders.gov.au/]
+    Given I Navigate to https://www.tenders.gov.au/
 
   @TopNavigation
   Scenario: Validate Top Menu Navigation Works
