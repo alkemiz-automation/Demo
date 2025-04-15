@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Title</name>
+   <tag></tag>
+   <elementGuidId>e2720d39-39e2-4576-ad79-afeff186af1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='sortForm']/div/div/div/div[2]/div/div[2]/div/div/div/div/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.mouse-focus.focus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Title&quot;i] >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>42746f07-d1d5-41fe-af55-a8b450087b42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>a7aa6fc3-d2f2-4280-8ccb-7be7157e2b7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mouse-focus focus</value>
+      <webElementGuid>ebc4d409-8262-4ccd-a248-bb0cd89466ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Title</value>
+      <webElementGuid>62ceb9d3-0ead-47a0-bc43-8829da665188</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sortForm&quot;)/div[1]/div[@class=&quot;result-filter&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-md-7 pull-right&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9&quot;]/div[@class=&quot;filter-controls&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;btn-group bootstrap-select show-tick open&quot;]/div[@class=&quot;dropdown-menu open&quot;]/ul[@class=&quot;dropdown-menu inner&quot;]/li[3]/a[@class=&quot;mouse-focus focus&quot;]</value>
+      <webElementGuid>c615af9e-65a8-4519-bb9e-c56303becaa7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='sortForm']/div/div/div/div[2]/div/div[2]/div/div/div/div/ul/li[3]/a</value>
+      <webElementGuid>29dcff43-2e30-4df3-a053-d14bffdb9584</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Updated'])[2]/following::a[1]</value>
+      <webElementGuid>da88db50-01bc-4540-b400-5e9b5c92a526</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relevance'])[1]/following::a[2]</value>
+      <webElementGuid>2d260af6-97c2-4ce5-be3a-dea6ef682c4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agency'])[1]/preceding::a[1]</value>
+      <webElementGuid>5adeb11a-0ebb-43c7-a692-eab26120f597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/ul/li[3]/a</value>
+      <webElementGuid>d1f94a01-5d92-4e82-9343-462105e8a63e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Title' or . = 'Title')]</value>
+      <webElementGuid>976ab0ec-560c-4f56-a151-2245de14325c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

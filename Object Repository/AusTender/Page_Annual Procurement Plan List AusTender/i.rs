@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i</name>
+   <tag></tag>
+   <elementGuidId>cf661b24-9f88-4ccb-85c8-a07f1b66b126</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div[3]/div/div/div/form/p[2]/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;SearchButton&quot;] > i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Search&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4dd43ce3-3210-4cbc-be49-00a1be68cc09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;tabs&quot;]/div[@class=&quot;tab-content&quot;]/div[1]/div[@class=&quot;form&quot;]/form[1]/p[@class=&quot;text-right&quot;]/button[@class=&quot;rBtn fa-input btn-search mouse-focus focus&quot;]/i[1]</value>
+      <webElementGuid>e15ba744-2abe-488d-9ed0-1de92bd4a27f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div[3]/div/div/div/form/p[2]/button/i</value>
+      <webElementGuid>0efae273-3de7-47d6-9dca-936fefa0b0a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/button/i</value>
+      <webElementGuid>9ec83975-0be2-4bb0-a9b5-18a4d41e3499</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

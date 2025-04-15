@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_2</name>
+   <tag></tag>
+   <elementGuidId>21c0eed3-8e5c-4c0e-b13c-ea5de8adbd04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div[3]/div[3]/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.mouse-focus.focus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Page 2&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>51852eb2-0e06-4dfa-9fd6-e805dc07eea0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>?Type=Pp&amp;AgencyStatus=0&amp;AgencyUuid=&amp;Keyword=&amp;KeywordTypeSearch=AllWord&amp;AgencyRefId=&amp;ModifiedFrom=&amp;ModifiedTo=&amp;Category=&amp;EstimatedDateToMarket=&amp;SearchFrom=PpSearch&amp;submitSort=Go&amp;OrderBy=Title&amp;sort=&amp;page=2</value>
+      <webElementGuid>5a7cd6e8-ee1b-4b85-a4db-6f811dbd953c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Page 2</value>
+      <webElementGuid>99f8ff25-feb3-4f59-b242-9f1a9539e372</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mouse-focus focus</value>
+      <webElementGuid>27fc7237-8eb3-4bdb-a2c8-af7eeff54251</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>2a9b69fe-2c52-46c0-8e2a-61e91e3fc726</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;text-center pc&quot;]/ul[@class=&quot;pagination&quot;]/li[2]/a[@class=&quot;mouse-focus focus&quot;]</value>
+      <webElementGuid>f609e0ac-bdd7-42af-b9cc-c06371cd5068</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div[3]/div[3]/ul/li[2]/a</value>
+      <webElementGuid>84774413-47aa-46d7-92e9-de4215675e6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'2')])[10]</value>
+      <webElementGuid>2aafd4af-8eab-4379-84cb-272cff917d7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(ACT Local Time)'])[15]/following::a[2]</value>
+      <webElementGuid>b4c0d71b-e446-471b-8c3a-cd4b29b528b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Updated:'])[16]/following::a[2]</value>
+      <webElementGuid>82087d1e-ee6b-4c83-bd01-a7442d2b1b7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/preceding::a[9]</value>
+      <webElementGuid>0faa66e4-a760-4daa-ac72-51a735024352</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[11]</value>
+      <webElementGuid>414dcd51-d4fa-45cb-892d-f53c80018f5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '?Type=Pp&amp;AgencyStatus=0&amp;AgencyUuid=&amp;Keyword=&amp;KeywordTypeSearch=AllWord&amp;AgencyRefId=&amp;ModifiedFrom=&amp;ModifiedTo=&amp;Category=&amp;EstimatedDateToMarket=&amp;SearchFrom=PpSearch&amp;submitSort=Go&amp;OrderBy=Title&amp;sort=&amp;page=2')]</value>
+      <webElementGuid>9d60320a-88d9-473a-86e4-2bf7f2a5d323</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ul/li[2]/a</value>
+      <webElementGuid>4804ee56-5389-47e5-aa7a-b71d80ee037f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '?Type=Pp&amp;AgencyStatus=0&amp;AgencyUuid=&amp;Keyword=&amp;KeywordTypeSearch=AllWord&amp;AgencyRefId=&amp;ModifiedFrom=&amp;ModifiedTo=&amp;Category=&amp;EstimatedDateToMarket=&amp;SearchFrom=PpSearch&amp;submitSort=Go&amp;OrderBy=Title&amp;sort=&amp;page=2' and (text() = '2' or . = '2')]</value>
+      <webElementGuid>df23e3e0-d43b-4d9d-88f8-e2032c7c678e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

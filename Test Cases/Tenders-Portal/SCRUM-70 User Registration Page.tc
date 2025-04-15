@@ -24,11 +24,11 @@ h3. Scenario: Verify Registration Fields
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
-   <comment>Feature: User Registration Page
-URL: [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]
-Scenario: Verify Registration Fields
-Given I navigate to [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]
-Then I should see textboxes for Email, Password, Confirm Password, Organisation Name, and Contact Details
+   <comment>Feature: User Registration Page&#xd;
+URL: [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]&#xd;
+Scenario: Verify Registration Fields&#xd;
+Given I navigate to [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]&#xd;
+Then I should see textboxes for Email, Password, Confirm Password, Organisation Name, and Contact Details&#xd;
 And I should see the Register button</comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>4aa921bf-21e8-45d3-a6b8-eb96ce35f5a0</testCaseGuid>

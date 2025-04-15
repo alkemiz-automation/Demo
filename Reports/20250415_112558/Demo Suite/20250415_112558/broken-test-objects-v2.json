@@ -8,7 +8,7 @@
       "proposedLocator": "//a[contains(text(),\u0027View Addenda\u0027)]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_View Addenda_link.png"
+      "pathToScreenshot": "Reports/20250415_112558/Demo Suite/20250415_112558/Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_View Addenda_link.png"
     }
   ]
 }

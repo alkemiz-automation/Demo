@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo Suite" time="150.755" tests="8" failures="1" errors="0">
+   <testsuite name="Demo Suite" tests="8" failures="1" errors="0" time="150.755" skipped="0" timestamp="15-04-2025T11:26:04" hostname="90949858 - WSL93ZSDY3.AD.UWS.EDU.AU" id="Test Suites/Demo Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\90949858\\git\\Demo\\Reports\\20250415_112558\\Demo Suite\\20250415_112558"/>
+         <property name="logFiles" value="C:\\Users\\90949858\\git\\Demo\\Reports\\20250415_112558\\Demo Suite\\20250415_112558\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="90949858 - WSL93ZSDY3.AD.UWS.EDU.AU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 135.0.7049.85"/>
+         <property name="hostAddress" value="192.168.0.232"/>
+         <property name="sessionId" value="e331405447f2bf8bcf33cbe7758fb9b9"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Tenders-Portal/SCRUM-71 Validate Navigation Links on AusTender Website" time="0.316" classname="Test Cases/Tenders-Portal/SCRUM-71 Validate Navigation Links on AusTender Website" status="PASSED">
+         <system-out><![CDATA[15-04-2025T11:26:05 - [TEST_CASE][PASSED] - Test Cases/Tenders-Portal/SCRUM-71 Validate Navigation Links on AusTender Website: Test Cases/Tenders-Portal/SCRUM-71 Validate Navigation Links on AusTender Website
+
+15-04-2025T11:26:05 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/SCRUM-71 Validate Navigation Links on AusTender Website.feature"): NOT_RUN: runFeatureFile("Include/features/SCRUM-71 Validate Navigation Links on AusTender Website.feature")
+
+15-04-2025T11:26:05 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/SCRUM-71 Validate Navigation Links on AusTender Website.feature")]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tenders-Portal/Navigation Keyword Driven" time="52.435" classname="Test Cases/Tenders-Portal/Navigation Keyword Driven" status="PASSED">
+         <system-out><![CDATA[15-04-2025T11:26:05 - [TEST_CASE][PASSED] - Test Cases/Tenders-Portal/Navigation Keyword Driven: Test Cases/Tenders-Portal/Navigation Keyword Driven
+
+15-04-2025T11:26:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-04-2025T11:26:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-04-2025T11:26:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-04-2025T11:26:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-04-2025T11:26:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.tenders.gov.au/"): Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:26:11 - [MESSAGE][PASSED] - Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:26:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/h1_Welcome to the Australian Governments pr_7a1f86"), "Welcome to the Australian Government's procurement information system"): Actual text and expected text of test object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/h1_Welcome to the Australian Governments pr_7a1f86' are matched.
+
+15-04-2025T11:26:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/h1_Welcome to the Australian Governments pr_7a1f86' are matched.
+
+15-04-2025T11:26:11 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/p_AusTender provides centralised publicatio_944297"), "AusTender provides centralised publication of Australian Government business opportunities, annual procurement plans and contracts awarded. For more information visit AusTender Help and Information Centre."): NOT_RUN: verifyElementText(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/p_AusTender provides centralised publicatio_944297"), "AusTender provides centralised publication of Australian Government business opportunities, annual procurement plans and contracts awarded. For more information visit AusTender Help and Information Centre.")
+
+15-04-2025T11:26:11 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/p_AusTender provides centralised publicatio_944297"), "AusTender provides centralised publication of Australian Government business opportunities, annual procurement plans and contracts awarded. For more information visit AusTender Help and Information Centre.")
+
+15-04-2025T11:26:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/div_Due to Good Friday and Easter public ho_5090eb"), "Due to Good Friday and Easter public holiday, the AusTender Helpdesk will be unavailable between Friday 18 April 2025 - Monday 21 April 2025. 
+The AusTender Helpdesk will recommence on Tuesday 22 April 2025, 9:00am (AEST)."): Actual text and expected text of test object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/div_Due to Good Friday and Easter public ho_5090eb' are matched.
+
+15-04-2025T11:26:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/div_Due to Good Friday and Easter public ho_5090eb' are matched.
+
+15-04-2025T11:26:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/h2_Business Opportunities"), "Business Opportunities"): Actual text and expected text of test object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/h2_Business Opportunities' are matched.
+
+15-04-2025T11:26:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/h2_Business Opportunities' are matched.
+
+15-04-2025T11:26:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Find Business Opportunities"), 0): Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Find Business Opportunities' is present
+
+15-04-2025T11:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:12 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Find Business Opportunities' is present
+
+15-04-2025T11:26:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/a_State and Territory Opportunties"), 0): Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_State and Territory Opportunties' is present
+
+15-04-2025T11:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:12 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_State and Territory Opportunties' is present
+
+15-04-2025T11:26:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Trading Partner Opportunities"), 0): Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Trading Partner Opportunities' is present
+
+15-04-2025T11:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Trading Partner Opportunities' is present
+
+15-04-2025T11:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Panel Buyers"), 0): Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Panel Buyers' is present
+
+15-04-2025T11:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Panel Buyers' is present
+
+15-04-2025T11:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Reports"), 0): Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Reports' is present
+
+15-04-2025T11:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Reports' is present
+
+15-04-2025T11:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Multi Agency Access"), 0): Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Multi Agency Access' is present
+
+15-04-2025T11:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Multi Agency Access' is present
+
+15-04-2025T11:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Approaches to Market")): Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Approaches to Market' is clicked on
+
+15-04-2025T11:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Approaches to Market' is clicked on
+
+15-04-2025T11:26:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword"), 0): Object 'Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword' is present
+
+15-04-2025T11:26:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:15 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword' is present
+
+15-04-2025T11:26:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword"), "education"): Text 'education' is set on object 'Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword'
+
+15-04-2025T11:26:15 - [MESSAGE][PASSED] - Text 'education' is set on object 'Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword'
+
+15-04-2025T11:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/i")): Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/i' is clicked on
+
+15-04-2025T11:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/i' is clicked on
+
+15-04-2025T11:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/a_PRN2025-032")): Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/a_PRN2025-032' is clicked on
+
+15-04-2025T11:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/a_PRN2025-032' is clicked on
+
+15-04-2025T11:26:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/div_86000000 - Education and Training Services"), "86000000 - Education and Training Services"): Actual text and expected text of test object 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/div_86000000 - Education and Training Services' are matched.
+
+15-04-2025T11:26:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/div_86000000 - Education and Training Services' are matched.
+
+15-04-2025T11:26:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/p_Contact Details"), 0): Object 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/p_Contact Details' is present
+
+15-04-2025T11:26:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/p_Contact Details' is present
+
+15-04-2025T11:26:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_ATM Documents"), 0): Object 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_ATM Documents' is present
+
+15-04-2025T11:26:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_ATM Documents' is present
+
+15-04-2025T11:26:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_Lodgement Page"), 0): Object 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_Lodgement Page' is present
+
+15-04-2025T11:26:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:26:19 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_Lodgement Page' is present
+
+15-04-2025T11:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_ATM Documents")): Object: 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_ATM Documents' is clicked on
+
+15-04-2025T11:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_ATM Documents' is clicked on
+
+15-04-2025T11:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/li_ATM Documents - PRN2025-032")): Object: 'Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/li_ATM Documents - PRN2025-032' is clicked on
+
+15-04-2025T11:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/li_ATM Documents - PRN2025-032' is clicked on
+
+15-04-2025T11:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032")): Object: 'Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032' is clicked on
+
+15-04-2025T11:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032' is clicked on
+
+15-04-2025T11:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_Lodgement Page")): Object: 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_Lodgement Page' is clicked on
+
+15-04-2025T11:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_Lodgement Page' is clicked on
+
+15-04-2025T11:26:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Lodge a Response - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032")): Object: 'Object Repository/AusTender/Page_Lodge a Response - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032' is clicked on
+
+15-04-2025T11:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Lodge a Response - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032' is clicked on
+
+15-04-2025T11:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_View Addenda")): Object: 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_View Addenda' is clicked on
+
+15-04-2025T11:26:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //main[@id='mainContent']/div/div[3]/div[2]/div/div[17]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-04-2025T11:26:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_View Addenda'. Try using Self-healing.
+
+15-04-2025T11:26:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//main[@id='mainContent']/div/div[3]/div[2]/div/div[17]/div/a'.
+
+15-04-2025T11:26:55 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//a[contains(text(),'View Addenda')]'.
+
+15-04-2025T11:26:55 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/90949858/git/Demo/Reports/Self-healing/Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_View Addenda_link.png
+
+15-04-2025T11:26:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_View Addenda' was broken. Propose an alternative one: '//a[contains(text(),'View Addenda')]'.
+
+15-04-2025T11:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_View Addenda' is clicked on
+
+15-04-2025T11:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032")): Object: 'Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032' is clicked on
+
+15-04-2025T11:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032' is clicked on
+
+15-04-2025T11:26:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-04-2025T11:26:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tenders-Portal/SCRUM-66 Approaches to Market Listing" time="22.079" classname="Test Cases/Tenders-Portal/SCRUM-66 Approaches to Market Listing" status="PASSED">
+         <system-out><![CDATA[15-04-2025T11:26:57 - [TEST_CASE][PASSED] - Test Cases/Tenders-Portal/SCRUM-66 Approaches to Market Listing: Test Cases/Tenders-Portal/SCRUM-66 Approaches to Market Listing
+
+15-04-2025T11:26:58 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/SCRUM-66 Approaches to Market Listing.feature"): NOT_RUN: runFeatureFile("Include/features/SCRUM-66 Approaches to Market Listing.feature")
+
+15-04-2025T11:26:58 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/SCRUM-66 Approaches to Market Listing.feature")
+
+15-04-2025T11:26:58 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/SCRUM-66 Approaches to Market Listing.feature"): NOT_RUN: runFeatureFile("Include/features/SCRUM-66 Approaches to Market Listing.feature")
+
+15-04-2025T11:26:58 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/SCRUM-66 Approaches to Market Listing.feature")
+
+15-04-2025T11:26:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-04-2025T11:26:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-04-2025T11:26:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-04-2025T11:27:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-04-2025T11:27:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.tenders.gov.au/"): Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:27:02 - [MESSAGE][PASSED] - Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:27:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Approaches to Market")): Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Approaches to Market' is clicked on
+
+15-04-2025T11:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Approaches to Market' is clicked on
+
+15-04-2025T11:27:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/p_Provision of Security Risk Assessment Services"), "Provision of Security Risk Assessment Services"): Actual text and expected text of test object 'Object Repository/AusTender/Page_Current ATM List AusTender/p_Provision of Security Risk Assessment Services' are matched.
+
+15-04-2025T11:27:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AusTender/Page_Current ATM List AusTender/p_Provision of Security Risk Assessment Services' are matched.
+
+15-04-2025T11:27:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending"), 0): Object 'Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending' is present
+
+15-04-2025T11:27:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:27:04 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending' is present
+
+15-04-2025T11:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending")): Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending' is clicked on
+
+15-04-2025T11:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending' is clicked on
+
+15-04-2025T11:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/a_Title")): Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/a_Title' is clicked on
+
+15-04-2025T11:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/a_Title' is clicked on
+
+15-04-2025T11:27:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/select_Close Date  Time - Ascending        _3f828b"), "Title", true): All options with value 'Title' are selected in object 'Object Repository/AusTender/Page_Current ATM List AusTender/select_Close Date  Time - Ascending        _3f828b'  using regular expression
+
+15-04-2025T11:27:06 - [MESSAGE][PASSED] - All options with value 'Title' are selected in object 'Object Repository/AusTender/Page_Current ATM List AusTender/select_Close Date  Time - Ascending        _3f828b'  using regular expression
+
+15-04-2025T11:27:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/button_Sort")): Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/button_Sort' is clicked on
+
+15-04-2025T11:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/button_Sort' is clicked on
+
+15-04-2025T11:27:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/p_ADFA Library Minor Refurbishment, ACT"), "ADFA Library Minor Refurbishment, ACT"): Actual text and expected text of test object 'Object Repository/AusTender/Page_Current ATM List AusTender/p_ADFA Library Minor Refurbishment, ACT' are matched.
+
+15-04-2025T11:27:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AusTender/Page_Current ATM List AusTender/p_ADFA Library Minor Refurbishment, ACT' are matched.
+
+15-04-2025T11:27:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword"), "education"): Text 'education' is set on object 'Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword'
+
+15-04-2025T11:27:08 - [MESSAGE][PASSED] - Text 'education' is set on object 'Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword'
+
+15-04-2025T11:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/button_Search")): Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/button_Search' is clicked on
+
+15-04-2025T11:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/button_Search' is clicked on
+
+15-04-2025T11:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM List AusTender/a_PROC2010")): Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/a_PROC2010' is clicked on
+
+15-04-2025T11:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM List AusTender/a_PROC2010' is clicked on
+
+15-04-2025T11:27:10 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents")): Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents' is right clicked on
+
+15-04-2025T11:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents' is right clicked on
+
+15-04-2025T11:27:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents")): Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents' is clicked on
+
+15-04-2025T11:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents' is clicked on
+
+15-04-2025T11:27:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010")): Object: 'Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010' is clicked on
+
+15-04-2025T11:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010' is clicked on
+
+15-04-2025T11:27:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_Lodgement Page")): Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_Lodgement Page' is clicked on
+
+15-04-2025T11:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_Lodgement Page' is clicked on
+
+15-04-2025T11:27:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Lodge a Response - PROC2010 AusTender/a_Current ATM View - PROC2010")): Object: 'Object Repository/AusTender/Page_Lodge a Response - PROC2010 AusTender/a_Current ATM View - PROC2010' is clicked on
+
+15-04-2025T11:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Lodge a Response - PROC2010 AusTender/a_Current ATM View - PROC2010' is clicked on
+
+15-04-2025T11:27:16 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda")): Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda' is right clicked on
+
+15-04-2025T11:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda' is right clicked on
+
+15-04-2025T11:27:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda")): Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda' is clicked on
+
+15-04-2025T11:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda' is clicked on
+
+15-04-2025T11:27:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010")): Object: 'Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010' is clicked on
+
+15-04-2025T11:27:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tenders-Portal/SCRUM-67 Contract Notice Search and Results" time="23.39" classname="Test Cases/Tenders-Portal/SCRUM-67 Contract Notice Search and Results" status="PASSED">
+         <system-out><![CDATA[15-04-2025T11:27:20 - [TEST_CASE][PASSED] - Test Cases/Tenders-Portal/SCRUM-67 Contract Notice Search and Results: Test Cases/Tenders-Portal/SCRUM-67 Contract Notice Search and Results
+
+15-04-2025T11:27:20 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/SCRUM-67 Contract Notice Search and Results.feature"): NOT_RUN: runFeatureFile("Include/features/SCRUM-67 Contract Notice Search and Results.feature")
+
+15-04-2025T11:27:20 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/SCRUM-67 Contract Notice Search and Results.feature")
+
+15-04-2025T11:27:20 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/SCRUM-67 Contract Notice Search and Results.feature"): NOT_RUN: runFeatureFile("Include/features/SCRUM-67 Contract Notice Search and Results.feature")
+
+15-04-2025T11:27:20 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/SCRUM-67 Contract Notice Search and Results.feature")
+
+15-04-2025T11:27:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-04-2025T11:27:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-04-2025T11:27:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-04-2025T11:27:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-04-2025T11:27:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-04-2025T11:27:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.tenders.gov.au/"): Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:27:24 - [MESSAGE][PASSED] - Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:27:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices")): Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices' is clicked on
+
+15-04-2025T11:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices' is clicked on
+
+15-04-2025T11:27:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notices AusTender/span_13-Apr-2025 to 19-Apr-2025")): Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/span_13-Apr-2025 to 19-Apr-2025' is clicked on
+
+15-04-2025T11:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/span_13-Apr-2025 to 19-Apr-2025' is clicked on
+
+15-04-2025T11:27:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notices AusTender/span_30-Mar-2025 to 05-Apr-2025")): Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/span_30-Mar-2025 to 05-Apr-2025' is clicked on
+
+15-04-2025T11:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/span_30-Mar-2025 to 05-Apr-2025' is clicked on
+
+15-04-2025T11:27:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AusTender/Page_Contract Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c"), "30-Mar-2025,05-Apr-2025", true): All options with value '30-Mar-2025,05-Apr-2025' are selected in object 'Object Repository/AusTender/Page_Contract Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c'  using regular expression
+
+15-04-2025T11:27:28 - [MESSAGE][PASSED] - All options with value '30-Mar-2025,05-Apr-2025' are selected in object 'Object Repository/AusTender/Page_Contract Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c'  using regular expression
+
+15-04-2025T11:27:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notices AusTender/button_View")): Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/button_View' is clicked on
+
+15-04-2025T11:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/button_View' is clicked on
+
+15-04-2025T11:27:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notice List AusTender/a_Full Details")): Object: 'Object Repository/AusTender/Page_Contract Notice List AusTender/a_Full Details' is clicked on
+
+15-04-2025T11:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notice List AusTender/a_Full Details' is clicked on
+
+15-04-2025T11:27:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notice View - CN4141271 AusTender/a_SON3965020")): Object: 'Object Repository/AusTender/Page_Contract Notice View - CN4141271 AusTender/a_SON3965020' is clicked on
+
+15-04-2025T11:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notice View - CN4141271 AusTender/a_SON3965020' is clicked on
+
+15-04-2025T11:27:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_PNL4117")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_PNL4117' is clicked on
+
+15-04-2025T11:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_PNL4117' is clicked on
+
+15-04-2025T11:27:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Government Buyers")): Object: 'Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Government Buyers' is clicked on
+
+15-04-2025T11:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Government Buyers' is clicked on
+
+15-04-2025T11:27:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Government Buyers AusTender/a_Return to top")): Object: 'Object Repository/AusTender/Page_Government Buyers AusTender/a_Return to top' is clicked on
+
+15-04-2025T11:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Government Buyers AusTender/a_Return to top' is clicked on
+
+15-04-2025T11:27:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Government Buyers AusTender/a_Standing Offer Notice View - SON3965020")): Object: 'Object Repository/AusTender/Page_Government Buyers AusTender/a_Standing Offer Notice View - SON3965020' is clicked on
+
+15-04-2025T11:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Government Buyers AusTender/a_Standing Offer Notice View - SON3965020' is clicked on
+
+15-04-2025T11:27:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Panel View - PNL4117")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Panel View - PNL4117' is clicked on
+
+15-04-2025T11:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Panel View - PNL4117' is clicked on
+
+15-04-2025T11:27:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Standing Offer Notice View - SON3965020")): Object: 'Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Standing Offer Notice View - SON3965020' is clicked on
+
+15-04-2025T11:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Standing Offer Notice View - SON3965020' is clicked on
+
+15-04-2025T11:27:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Standing Offer Notice View - SON3965020")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Standing Offer Notice View - SON3965020' is clicked on
+
+15-04-2025T11:27:39 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Standing Offer Notice View - SON3965020' is clicked on
+
+15-04-2025T11:27:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Contract Notices")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Contract Notices' is clicked on
+
+15-04-2025T11:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Contract Notices' is clicked on
+
+15-04-2025T11:27:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notices AusTender/i")): Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/i' is clicked on
+
+15-04-2025T11:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/i' is clicked on
+
+15-04-2025T11:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN3712064")): Object: 'Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN3712064' is clicked on
+
+15-04-2025T11:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN3712064' is clicked on
+
+15-04-2025T11:27:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-04-2025T11:27:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tenders-Portal/SCRUM-68 Senate Order Viewing" time="13.211" classname="Test Cases/Tenders-Portal/SCRUM-68 Senate Order Viewing" status="PASSED">
+         <system-out><![CDATA[15-04-2025T11:27:43 - [TEST_CASE][PASSED] - Test Cases/Tenders-Portal/SCRUM-68 Senate Order Viewing: Test Cases/Tenders-Portal/SCRUM-68 Senate Order Viewing
+
+15-04-2025T11:27:43 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/SCRUM-68 Senate Order Viewing.feature"): NOT_RUN: runFeatureFile("Include/features/SCRUM-68 Senate Order Viewing.feature")
+
+15-04-2025T11:27:43 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/SCRUM-68 Senate Order Viewing.feature")
+
+15-04-2025T11:27:43 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/SCRUM-68 Senate Order Viewing.feature"): NOT_RUN: runFeatureFile("Include/features/SCRUM-68 Senate Order Viewing.feature")
+
+15-04-2025T11:27:43 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/SCRUM-68 Senate Order Viewing.feature")
+
+15-04-2025T11:27:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-04-2025T11:27:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-04-2025T11:27:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-04-2025T11:27:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-04-2025T11:27:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.tenders.gov.au/"): Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:27:47 - [MESSAGE][PASSED] - Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:27:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Standing Offers")): Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Standing Offers' is clicked on
+
+15-04-2025T11:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Standing Offers' is clicked on
+
+15-04-2025T11:27:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_13-Apr-2025 to 19-Apr-2025")): Object: 'Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_13-Apr-2025 to 19-Apr-2025' is clicked on
+
+15-04-2025T11:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_13-Apr-2025 to 19-Apr-2025' is clicked on
+
+15-04-2025T11:27:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_30-Mar-2025 to 05-Apr-2025")): Object: 'Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_30-Mar-2025 to 05-Apr-2025' is clicked on
+
+15-04-2025T11:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_30-Mar-2025 to 05-Apr-2025' is clicked on
+
+15-04-2025T11:27:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AusTender/Page_Standing Offer Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c"), "30-Mar-2025,05-Apr-2025", true): All options with value '30-Mar-2025,05-Apr-2025' are selected in object 'Object Repository/AusTender/Page_Standing Offer Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c'  using regular expression
+
+15-04-2025T11:27:51 - [MESSAGE][PASSED] - All options with value '30-Mar-2025,05-Apr-2025' are selected in object 'Object Repository/AusTender/Page_Standing Offer Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c'  using regular expression
+
+15-04-2025T11:27:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notices AusTender/button_View")): Object: 'Object Repository/AusTender/Page_Standing Offer Notices AusTender/button_View' is clicked on
+
+15-04-2025T11:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notices AusTender/button_View' is clicked on
+
+15-04-2025T11:27:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_SON4139337")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_SON4139337' is clicked on
+
+15-04-2025T11:27:52 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_SON4139337' is clicked on
+
+15-04-2025T11:27:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Current Suppliers (2)")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Current Suppliers (2)' is clicked on
+
+15-04-2025T11:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Current Suppliers (2)' is clicked on
+
+15-04-2025T11:27:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Previous Suppliers")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Previous Suppliers' is clicked on
+
+15-04-2025T11:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Previous Suppliers' is clicked on
+
+15-04-2025T11:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Participant Agencies")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Participant Agencies' is clicked on
+
+15-04-2025T11:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Participant Agencies' is clicked on
+
+15-04-2025T11:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Standing Offer Notice List")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Standing Offer Notice List' is clicked on
+
+15-04-2025T11:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Standing Offer Notice List' is clicked on
+
+15-04-2025T11:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_Standing Offers")): Object: 'Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_Standing Offers' is clicked on
+
+15-04-2025T11:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_Standing Offers' is clicked on
+
+15-04-2025T11:27:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-04-2025T11:27:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tenders-Portal/SCRUM-69 Planned Procurements" time="25.638" classname="Test Cases/Tenders-Portal/SCRUM-69 Planned Procurements" status="PASSED">
+         <system-out><![CDATA[15-04-2025T11:27:56 - [TEST_CASE][PASSED] - Test Cases/Tenders-Portal/SCRUM-69 Planned Procurements: Test Cases/Tenders-Portal/SCRUM-69 Planned Procurements
+
+15-04-2025T11:27:56 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/SCRUM-69 Planned Procurements.feature"): NOT_RUN: runFeatureFile("Include/features/SCRUM-69 Planned Procurements.feature")
+
+15-04-2025T11:27:56 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/SCRUM-69 Planned Procurements.feature")
+
+15-04-2025T11:27:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-04-2025T11:27:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-04-2025T11:27:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-04-2025T11:28:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-04-2025T11:28:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.tenders.gov.au/"): Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:28:00 - [MESSAGE][PASSED] - Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:28:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Planned Procurements")): Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Planned Procurements' is clicked on
+
+15-04-2025T11:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Planned Procurements' is clicked on
+
+15-04-2025T11:28:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i' is clicked on
+
+15-04-2025T11:28:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i' is clicked on
+
+15-04-2025T11:28:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_South Bandiana Building Works, VIC")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_South Bandiana Building Works, VIC' is clicked on
+
+15-04-2025T11:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_South Bandiana Building Works, VIC' is clicked on
+
+15-04-2025T11:28:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Current ATM View - EST10524 AusTender/a_Annual Procurement Plan List")): Object: 'Object Repository/AusTender/Page_Current ATM View - EST10524 AusTender/a_Annual Procurement Plan List' is clicked on
+
+15-04-2025T11:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Current ATM View - EST10524 AusTender/a_Annual Procurement Plan List' is clicked on
+
+15-04-2025T11:28:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i' is clicked on
+
+15-04-2025T11:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i' is clicked on
+
+15-04-2025T11:28:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/div_EST10524 South Bandiana Building Works _33adc5"), 0): Object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/div_EST10524 South Bandiana Building Works _33adc5' is present
+
+15-04-2025T11:28:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:28:08 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/div_EST10524 South Bandiana Building Works _33adc5' is present
+
+15-04-2025T11:28:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/h2_Search Results"), 0): Object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/h2_Search Results' is present
+
+15-04-2025T11:28:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:28:08 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/h2_Search Results' is present
+
+15-04-2025T11:28:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Download Results"), 0): Object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Download Results' is present
+
+15-04-2025T11:28:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-04-2025T11:28:08 - [MESSAGE][PASSED] - Object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Download Results' is present
+
+15-04-2025T11:28:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Last Updated")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Last Updated' is clicked on
+
+15-04-2025T11:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Last Updated' is clicked on
+
+15-04-2025T11:28:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Title")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Title' is clicked on
+
+15-04-2025T11:28:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Title' is clicked on
+
+15-04-2025T11:28:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_Relevance                           _59b6fc"), "Title", true): All options with value 'Title' are selected in object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_Relevance                           _59b6fc'  using regular expression
+
+15-04-2025T11:28:10 - [MESSAGE][PASSED] - All options with value 'Title' are selected in object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_Relevance                           _59b6fc'  using regular expression
+
+15-04-2025T11:28:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_Sort")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_Sort' is clicked on
+
+15-04-2025T11:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_Sort' is clicked on
+
+15-04-2025T11:28:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_2")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_2' is clicked on
+
+15-04-2025T11:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_2' is clicked on
+
+15-04-2025T11:28:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Planned Procurements")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Planned Procurements' is clicked on
+
+15-04-2025T11:28:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Planned Procurements' is clicked on
+
+15-04-2025T11:28:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_List By Agency")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_List By Agency' is clicked on
+
+15-04-2025T11:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_List By Agency' is clicked on
+
+15-04-2025T11:28:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_-- Please select --")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_-- Please select --' is clicked on
+
+15-04-2025T11:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_-- Please select --' is clicked on
+
+15-04-2025T11:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Administrative Appeals Tribunal")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Administrative Appeals Tribunal' is clicked on
+
+15-04-2025T11:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Administrative Appeals Tribunal' is clicked on
+
+15-04-2025T11:28:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_-- Please select ---- Please select _a82724"), "077c76eb-918f-9197-880d-1aa6a58e5874", true): All options with value '077c76eb-918f-9197-880d-1aa6a58e5874' are selected in object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_-- Please select ---- Please select _a82724'  using regular expression
+
+15-04-2025T11:28:19 - [MESSAGE][PASSED] - All options with value '077c76eb-918f-9197-880d-1aa6a58e5874' are selected in object 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_-- Please select ---- Please select _a82724'  using regular expression
+
+15-04-2025T11:28:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/input_Workplace Gender Equality Agency_btn-_b78b20")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/input_Workplace Gender Equality Agency_btn-_b78b20' is clicked on
+
+15-04-2025T11:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/input_Workplace Gender Equality Agency_btn-_b78b20' is clicked on
+
+15-04-2025T11:28:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Annual Procurement Plan View - Adminis_2c9ef6/a_Planned Procurements")): Object: 'Object Repository/AusTender/Page_Annual Procurement Plan View - Adminis_2c9ef6/a_Planned Procurements' is clicked on
+
+15-04-2025T11:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Annual Procurement Plan View - Adminis_2c9ef6/a_Planned Procurements' is clicked on
+
+15-04-2025T11:28:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-04-2025T11:28:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tenders-Portal/SCRUM-70 User Registration Page" time="0.035" classname="Test Cases/Tenders-Portal/SCRUM-70 User Registration Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Tenders-Portal/SCRUM-70 User Registration Page FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.SecurityException: class &quot;module-info&quot;'s signer information does not match signer information of other classes in the same package&#xa;	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)&#xa;	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)&#xa;	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)&#xa;	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)&#xa;	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)&#xa;	at cucumber.runtime.Runtime.&lt;init>(Runtime.java:42)&#xa;	at cucumber.api.cli.Main.run(Main.java:34)&#xa;	at cucumber.api.cli.Main$run.call(Unknown Source)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)&#xa;	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)&#xa;	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.SecurityException: class &quot;module-info&quot;'s signer information does not match signer information of other classes in the same package&#xa;	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)&#xa;	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)&#xa;	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)&#xa;	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)&#xa;	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)&#xa;	at cucumber.runtime.Runtime.&lt;init>(Runtime.java:42)&#xa;	at cucumber.api.cli.Main.run(Main.java:34)&#xa;	at cucumber.api.cli.Main$run.call(Unknown Source)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)&#xa;	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	... 24 more&#xa;"/>
+         <system-out><![CDATA[15-04-2025T11:28:23 - [TEST_CASE][FAILED] - Test Cases/Tenders-Portal/SCRUM-70 User Registration Page: Test Cases/Tenders-Portal/SCRUM-70 User Registration Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 24 more
+
+
+15-04-2025T11:28:23 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/SCRUM-70 User Registration Page.feature"): Keyword runFeatureFile was failed (Root cause: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+15-04-2025T11:28:23 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/SCRUM-70 User Registration Page.feature' and extract report to folder: 'C:\Users\90949858\git\Demo\Reports\20250415_112558\Demo Suite\20250415_112558/cucumber_report/1744680503562'...
+
+15-04-2025T11:28:23 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)]]></system-out>
+         <system-err><![CDATA[15-04-2025T11:28:23 - [TEST_CASE][FAILED] - Test Cases/Tenders-Portal/SCRUM-70 User Registration Page: Test Cases/Tenders-Portal/SCRUM-70 User Registration Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 24 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tenders-Portal/SCRUM-72 Validate CN search" time="12.079" classname="Test Cases/Tenders-Portal/SCRUM-72 Validate CN search" status="PASSED">
+         <system-out><![CDATA[15-04-2025T11:28:23 - [TEST_CASE][PASSED] - Test Cases/Tenders-Portal/SCRUM-72 Validate CN search: Test Cases/Tenders-Portal/SCRUM-72 Validate CN search
+
+15-04-2025T11:28:23 - [TEST_STEP][NOT_RUN] - runFeatureFile("Include/features/SCRUM-72 Validate CN search.feature"): NOT_RUN: runFeatureFile("Include/features/SCRUM-72 Validate CN search.feature")
+
+15-04-2025T11:28:23 - [MESSAGE][NOT_RUN] - NOT_RUN: runFeatureFile("Include/features/SCRUM-72 Validate CN search.feature")
+
+15-04-2025T11:28:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-04-2025T11:28:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-04-2025T11:28:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-04-2025T11:28:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-04-2025T11:28:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.tenders.gov.au/"): Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:28:29 - [MESSAGE][PASSED] - Navigate to 'https://www.tenders.gov.au/' successfully
+
+15-04-2025T11:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices")): Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices' is clicked on
+
+15-04-2025T11:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices' is clicked on
+
+15-04-2025T11:28:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AusTender/Page_Contract Notices AusTender/input_Use the drop down menu to specify an _43aab4"), "education"): Text 'education' is set on object 'Object Repository/AusTender/Page_Contract Notices AusTender/input_Use the drop down menu to specify an _43aab4'
+
+15-04-2025T11:28:32 - [MESSAGE][PASSED] - Text 'education' is set on object 'Object Repository/AusTender/Page_Contract Notices AusTender/input_Use the drop down menu to specify an _43aab4'
+
+15-04-2025T11:28:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notices AusTender/i")): Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/i' is clicked on
+
+15-04-2025T11:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notices AusTender/i' is clicked on
+
+15-04-2025T11:28:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN4144091")): Object: 'Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN4144091' is clicked on
+
+15-04-2025T11:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN4144091' is clicked on
+
+15-04-2025T11:28:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AusTender/Page_Contract Notice View - CN4144091 AusTender/a_Contract Notices")): Object: 'Object Repository/AusTender/Page_Contract Notice View - CN4144091 AusTender/a_Contract Notices' is clicked on
+
+15-04-2025T11:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AusTender/Page_Contract Notice View - CN4144091 AusTender/a_Contract Notices' is clicked on
+
+15-04-2025T11:28:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-04-2025T11:28:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-04-2025T11:26:04 - [TEST_SUITE][FAILED] - Demo Suite: Test Cases/Tenders-Portal/SCRUM-70 User Registration Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 21 more]]></system-out>
+      <system-err><![CDATA[15-04-2025T11:26:04 - [TEST_SUITE][FAILED] - Demo Suite: Test Cases/Tenders-Portal/SCRUM-70 User Registration Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:77)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:256)
+	at SCRUM-70 User Registration Page.run(SCRUM-70 User Registration Page:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1744680358031.run(TempTestSuite1744680358031.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.SecurityException: class "module-info"'s signer information does not match signer information of other classes in the same package
+	at cucumber.runtime.io.ResourceLoaderClassFinder.loadClass(ResourceLoaderClassFinder.java:42)
+	at cucumber.runtime.io.ResourceLoaderClassFinder.getDescendants(ResourceLoaderClassFinder.java:32)
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:33)
+	at cucumber.runtime.Reflections.instantiateExactlyOneSubclass(Reflections.java:17)
+	at cucumber.runtime.Runtime.loadBackends(Runtime.java:86)
+	at cucumber.runtime.Runtime.<init>(Runtime.java:42)
+	at cucumber.api.cli.Main.run(Main.java:34)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:110)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	... 21 more]]></system-err>
+   </testsuite>
+</testsuites>

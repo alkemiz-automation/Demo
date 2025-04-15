@@ -28,13 +28,13 @@ h3. Scenario: Search Planned Procurements
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
-   <comment>Feature: Planned Procurements
-URL: [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]
-Scenario: Search Planned Procurements
-Given I navigate to [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]
-When I enter 'Infrastructure' in the textbox Keyword
-And I select 'Department of Infrastructure' from the Agency dropdown
-And I click the Search button
+   <comment>Feature: Planned Procurements&#xd;
+URL: [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]&#xd;
+Scenario: Search Planned Procurements&#xd;
+Given I navigate to [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]&#xd;
+When I enter 'Infrastructure' in the textbox Keyword&#xd;
+And I select 'Department of Infrastructure' from the Agency dropdown&#xd;
+And I click the Search button&#xd;
 Then I should see results with Agency name, Procurement Title and Status</comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>d1671e97-d9cb-4aee-9176-e7fe3b7b6330</testCaseGuid>

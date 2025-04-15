@@ -24,11 +24,11 @@ h3. Scenario: Verify Senate Order Listings
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
-   <comment>Feature: Senate Order Viewing
-URL: [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]
-Scenario: Verify Senate Order Listings
-Given I navigate to [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]
-Then I should see a list of Senate Order reports
+   <comment>Feature: Senate Order Viewing&#xd;
+URL: [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]&#xd;
+Scenario: Verify Senate Order Listings&#xd;
+Given I navigate to [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]&#xd;
+Then I should see a list of Senate Order reports&#xd;
 And each row should display Agency, Date Published, and PDF/Excel links</comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>8a2c8e0e-094e-40e6-8d17-ef8b74342b19</testCaseGuid>

@@ -36,17 +36,17 @@ h3. Scenario: Advanced Search with Supplier Name
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
-   <comment>Feature: Contract Notice Search and Results
-URL: [https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]
-Scenario: Search Contract Notices by Date
-Given I navigate to [https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]
-When I select 'Publish Date' and input date range '01/01/2024 to 31/03/2025'
-And I click on the button View
-Then I should see a list of contract notices with publish date, agency, and value
-Scenario: Advanced Search with Supplier Name
-Given I am on the Contract Notice search page
-When I enter 'Dynamic Aspect' in the Supplier Name textbox
-And I click the search button
+   <comment>Feature: Contract Notice Search and Results&#xd;
+URL: [https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]&#xd;
+Scenario: Search Contract Notices by Date&#xd;
+Given I navigate to [https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]&#xd;
+When I select 'Publish Date' and input date range '01/01/2024 to 31/03/2025'&#xd;
+And I click on the button View&#xd;
+Then I should see a list of contract notices with publish date, agency, and value&#xd;
+Scenario: Advanced Search with Supplier Name&#xd;
+Given I am on the Contract Notice search page&#xd;
+When I enter 'Dynamic Aspect' in the Supplier Name textbox&#xd;
+And I click the search button&#xd;
 Then I should see results matching the supplier with their respective CN ID and Contract Value</comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>7b80e7d3-5719-4452-bd99-25baa10561a0</testCaseGuid>

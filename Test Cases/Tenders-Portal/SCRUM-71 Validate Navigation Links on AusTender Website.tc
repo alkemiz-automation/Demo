@@ -14,40 +14,40 @@ Description: </description>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
-   <comment>@Navigation
-Feature: Validate Navigation Links on AusTender Website
-
-  Background:
-    Given I Navigate to [https://www.tenders.gov.au/|https://www.tenders.gov.au/]
-
-  @TopNavigation
-  Scenario: Validate Top Menu Navigation Works
-    When I Click on the menu Approaches to Market
-    Then I should see the heading Current ATM List
-
-When I Click on the menu Contract Notices
-Then I should see the heading Contract Notices
-
-When I Click on the menu Standing Offers
-Then I should see the heading Standing Offers
-
-When I Click on the menu Planned Procurements
-Then I should see the heading Planned Procurements
-
-When I Click on the menu Senate Order
-Then I should see the heading Senate Order
-
-When I Click on the menu Help
-Then I should see the heading Help
-
-  @SideNavigation
-  Scenario: Validate Side Navigation Links Work
-    Given I Navigate to [https://www.tenders.gov.au/|https://www.tenders.gov.au/]
-    When I Click on the menu Info &amp; Links
-    And I Click on the side menu Agency Addresses
-    Then I should see the heading Agency Addresses
-
-When I Click on the side menu Policy Documents
+   <comment>@Navigation&#xd;
+Feature: Validate Navigation Links on AusTender Website&#xd;
+&#xd;
+  Background:&#xd;
+    Given I Navigate to [https://www.tenders.gov.au/|https://www.tenders.gov.au/]&#xd;
+&#xd;
+  @TopNavigation&#xd;
+  Scenario: Validate Top Menu Navigation Works&#xd;
+    When I Click on the menu Approaches to Market&#xd;
+    Then I should see the heading Current ATM List&#xd;
+&#xd;
+When I Click on the menu Contract Notices&#xd;
+Then I should see the heading Contract Notices&#xd;
+&#xd;
+When I Click on the menu Standing Offers&#xd;
+Then I should see the heading Standing Offers&#xd;
+&#xd;
+When I Click on the menu Planned Procurements&#xd;
+Then I should see the heading Planned Procurements&#xd;
+&#xd;
+When I Click on the menu Senate Order&#xd;
+Then I should see the heading Senate Order&#xd;
+&#xd;
+When I Click on the menu Help&#xd;
+Then I should see the heading Help&#xd;
+&#xd;
+  @SideNavigation&#xd;
+  Scenario: Validate Side Navigation Links Work&#xd;
+    Given I Navigate to [https://www.tenders.gov.au/|https://www.tenders.gov.au/]&#xd;
+    When I Click on the menu Info &amp; Links&#xd;
+    And I Click on the side menu Agency Addresses&#xd;
+    Then I should see the heading Agency Addresses&#xd;
+&#xd;
+When I Click on the side menu Policy Documents&#xd;
 Then I should see the heading Policy Documents</comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>11be12ee-21d9-4e47-a8a8-631f2a5758cb</testCaseGuid>

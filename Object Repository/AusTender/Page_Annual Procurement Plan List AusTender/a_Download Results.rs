@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Download Results</name>
+   <tag></tag>
+   <elementGuidId>25f22d3d-96a3-4f34-9eec-0b3b984cb6f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div[3]/div/div/p/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn-download.mouse-focus.focus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Download Results&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>022c9a66-640e-4753-be22-a986d9f0c081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Search/PpAdvancedSearchDownload?Page=1&amp;ItemsPerPage=0&amp;SearchFrom=PpSearch&amp;Type=Pp&amp;AgencyStatus=0&amp;KeywordTypeSearch=AllWord&amp;OrderBy=Last%20Updated</value>
+      <webElementGuid>d2b378de-effe-485c-975c-70187b556a93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-download mouse-focus focus</value>
+      <webElementGuid>7a9cbe43-fad8-4416-9070-edd951a979f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download Results</value>
+      <webElementGuid>22cf7d38-836e-461e-a9b0-69152d7d7330</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-offset-4 col-sm-8 text-right&quot;]/p[1]/a[@class=&quot;btn-download mouse-focus focus&quot;]</value>
+      <webElementGuid>91791a99-63a2-4c52-a78c-89d7d55217b7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div[3]/div/div/p/a</value>
+      <webElementGuid>65b0d5f2-d507-4bf7-b2c9-4bc977c8d146</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Download Results')]</value>
+      <webElementGuid>48f2da76-1221-4f3e-9751-07850a98f18e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimated Date of Approach to Market:'])[1]/following::a[1]</value>
+      <webElementGuid>e6795be1-54b6-4095-9ddc-bfceff80c085</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Results'])[1]/preceding::a[1]</value>
+      <webElementGuid>e98324a3-6e67-4bef-aa61-66460be209e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download Results']/parent::*</value>
+      <webElementGuid>091efc2c-1b74-438d-9e6e-b9531a2cb813</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/Search/PpAdvancedSearchDownload?Page=1&amp;ItemsPerPage=0&amp;SearchFrom=PpSearch&amp;Type=Pp&amp;AgencyStatus=0&amp;KeywordTypeSearch=AllWord&amp;OrderBy=Last%20Updated')]</value>
+      <webElementGuid>709bbacb-f154-483b-b4eb-fff2858db92e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a</value>
+      <webElementGuid>19ebbf0b-b355-484b-aa76-c3ab14e7b979</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/Search/PpAdvancedSearchDownload?Page=1&amp;ItemsPerPage=0&amp;SearchFrom=PpSearch&amp;Type=Pp&amp;AgencyStatus=0&amp;KeywordTypeSearch=AllWord&amp;OrderBy=Last%20Updated' and (text() = 'Download Results' or . = 'Download Results')]</value>
+      <webElementGuid>f02a25eb-7141-4d86-9e89-f0a9196fc2fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

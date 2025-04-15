@@ -1,0 +1,229 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Suite,Chrome 135.0.7049.85,,,15-04-2025 11:26:04,15-04-2025 11:28:35,2m - 30.755s,FAILED
+,,,,,,,
+Test Cases/Tenders-Portal/SCRUM-71 Validate Navigation Links on AusTender Website,Chrome 135.0.7049.85,"Summary: Validate Navigation Links on AusTender Website
+Description: ",jira-integration,15-04-2025 11:26:05,15-04-2025 11:26:05,0.316s,PASSED
+"runFeatureFile(""Include/features/SCRUM-71 Validate Navigation Links on AusTender Website.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:26:05,15-04-2025 11:26:05,0.007s,NOT_RUN
+,,,,,,,
+Test Cases/Tenders-Portal/Navigation Keyword Driven,Chrome 135.0.7049.85,,,15-04-2025 11:26:05,15-04-2025 11:26:57,52.435s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.85,,,15-04-2025 11:26:05,15-04-2025 11:26:10,4.609s,PASSED
+"navigateToUrl(""https://www.tenders.gov.au/"")",Chrome 135.0.7049.85,,,15-04-2025 11:26:10,15-04-2025 11:26:11,0.765s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/h1_Welcome to the Australian Governments pr_7a1f86""), ""Welcome to the Australian Government's procurement information system"")",Chrome 135.0.7049.85,,,15-04-2025 11:26:11,15-04-2025 11:26:11,0.845s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/p_AusTender provides centralised publicatio_944297""), ""AusTender provides centralised publication of Australian Government business opportunities, annual procurement plans and contracts awarded. For more information visit AusTender Help and Information Centre."")",Chrome 135.0.7049.85,,,15-04-2025 11:26:11,15-04-2025 11:26:11,0.002s,NOT_RUN
+"verifyElementText(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/div_Due to Good Friday and Easter public ho_5090eb""), ""Due to Good Friday and Easter public holiday, the AusTender Helpdesk will be unavailable between Friday 18 April 2025 - Monday 21 April 2025. 
+The AusTender Helpdesk will recommence on Tuesday 22 April 2025, 9:00am (AEST)."")",Chrome 135.0.7049.85,,,15-04-2025 11:26:11,15-04-2025 11:26:12,0.263s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/h2_Business Opportunities""), ""Business Opportunities"")",Chrome 135.0.7049.85,,,15-04-2025 11:26:12,15-04-2025 11:26:12,0.255s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Find Business Opportunities""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:12,15-04-2025 11:26:12,0.263s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/a_State and Territory Opportunties""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:12,15-04-2025 11:26:12,0.252s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Trading Partner Opportunities""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:12,15-04-2025 11:26:13,0.275s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Panel Buyers""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:13,15-04-2025 11:26:13,0.254s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Reports""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:13,15-04-2025 11:26:13,0.255s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/span_Multi Agency Access""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:13,15-04-2025 11:26:13,0.246s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Approaches to Market""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:13,15-04-2025 11:26:14,0.732s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:14,15-04-2025 11:26:15,0.654s,PASSED
+"setText(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword""), ""education"")",Chrome 135.0.7049.85,,,15-04-2025 11:26:15,15-04-2025 11:26:15,0.561s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/i""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:15,15-04-2025 11:26:16,0.438s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/a_PRN2025-032""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:16,15-04-2025 11:26:17,1.563s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/div_86000000 - Education and Training Services""), ""86000000 - Education and Training Services"")",Chrome 135.0.7049.85,,,15-04-2025 11:26:17,15-04-2025 11:26:18,0.653s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/p_Contact Details""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:18,15-04-2025 11:26:18,0.266s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_ATM Documents""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:18,15-04-2025 11:26:19,0.272s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_Lodgement Page""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:26:19,15-04-2025 11:26:19,0.257s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_ATM Documents""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:19,15-04-2025 11:26:19,0.592s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/li_ATM Documents - PRN2025-032""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:19,15-04-2025 11:26:21,1.124s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:21,15-04-2025 11:26:21,0.742s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_Lodgement Page""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:21,15-04-2025 11:26:22,1.105s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Lodge a Response - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:22,15-04-2025 11:26:24,1.176s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PRN2025-032 AusTender/a_View Addenda""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:24,15-04-2025 11:26:56,32.286s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_ATM Documents - PRN2025-032 AusTender/a_Current ATM View - PRN2025-032""))",Chrome 135.0.7049.85,,,15-04-2025 11:26:56,15-04-2025 11:26:57,1.244s,PASSED
+closeBrowser(),Chrome 135.0.7049.85,,,15-04-2025 11:26:57,15-04-2025 11:26:57,0.294s,PASSED
+,,,,,,,
+Test Cases/Tenders-Portal/SCRUM-66 Approaches to Market Listing,Chrome 135.0.7049.85,"Summary: Approaches to Market Listing
+Description: h2. Feature: Approaches to Market Listing
+
+URL: [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]
+
+h3. Scenario: Search and View ATM Listings
+
+·         Given I navigate to [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]
+
+·         When I enter 'Education' in the textbox Keyword
+
+·         And I click on the button Search
+
+·         Then I should see a list of ATM records displayed
+
+·         And I should see text 'Close Date & Time' on each record
+
+h3. Scenario: Validate ATM Card Details
+
+·         Given I am on the ATM listing page
+
+·         Then I should see the ATM ID, Agency, Category, and Description for each record
+
+·         And each ATM record should have a Full Details link",jira-integration,15-04-2025 11:26:57,15-04-2025 11:27:20,22.079s,PASSED
+"runFeatureFile(""Include/features/SCRUM-66 Approaches to Market Listing.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:26:58,15-04-2025 11:26:58,0.003s,NOT_RUN
+"runFeatureFile(""Include/features/SCRUM-66 Approaches to Market Listing.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:26:58,15-04-2025 11:26:58,0.002s,NOT_RUN
+"openBrowser("""")",Chrome 135.0.7049.85,,,15-04-2025 11:26:58,15-04-2025 11:27:01,3.127s,PASSED
+"navigateToUrl(""https://www.tenders.gov.au/"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:01,15-04-2025 11:27:02,1.102s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Approaches to Market""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:02,15-04-2025 11:27:03,1.313s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/p_Provision of Security Risk Assessment Services""), ""Provision of Security Risk Assessment Services"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:03,15-04-2025 11:27:04,0.705s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:27:04,15-04-2025 11:27:04,0.249s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:04,15-04-2025 11:27:04,0.286s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/a_Title""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:04,15-04-2025 11:27:05,0.542s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/select_Close Date  Time - Ascending        _3f828b""), ""Title"", true)",Chrome 135.0.7049.85,,,15-04-2025 11:27:05,15-04-2025 11:27:06,1.122s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/button_Sort""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:06,15-04-2025 11:27:06,0.454s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/p_ADFA Library Minor Refurbishment, ACT""), ""ADFA Library Minor Refurbishment, ACT"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:06,15-04-2025 11:27:07,0.871s,PASSED
+"setText(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword""), ""education"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:07,15-04-2025 11:27:08,0.568s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/button_Search""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:08,15-04-2025 11:27:08,0.414s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM List AusTender/a_PROC2010""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:08,15-04-2025 11:27:10,1.240s,PASSED
+"rightClick(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:10,15-04-2025 11:27:11,0.941s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:11,15-04-2025 11:27:12,1.230s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:12,15-04-2025 11:27:13,1.669s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_Lodgement Page""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:13,15-04-2025 11:27:15,1.438s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Lodge a Response - PROC2010 AusTender/a_Current ATM View - PROC2010""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:15,15-04-2025 11:27:16,1.086s,PASSED
+"rightClick(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:16,15-04-2025 11:27:17,0.737s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:17,15-04-2025 11:27:18,1.281s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:18,15-04-2025 11:27:20,1.582s,PASSED
+,,,,,,,
+Test Cases/Tenders-Portal/SCRUM-67 Contract Notice Search and Results,Chrome 135.0.7049.85,"Summary: Contract Notice Search and Results
+Description: h2. Feature: Contract Notice Search and Results
+
+URL: [https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]
+
+h3. Scenario: Search Contract Notices by Date
+
+·         Given I navigate to [https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]
+
+·         When I select 'Publish Date' and input date range '01/01/2024 to 31/03/2025'
+
+·         And I click on the button View
+
+·         Then I should see a list of contract notices with publish date, agency, and value
+
+h3. Scenario: Advanced Search with Supplier Name
+
+·         Given I am on the Contract Notice search page
+
+·         When I enter 'Dynamic Aspect' in the Supplier Name textbox
+
+·         And I click the search button
+
+·         Then I should see results matching the supplier with their respective CN ID and Contract Value",jira-integration,15-04-2025 11:27:20,15-04-2025 11:27:43,23.390s,PASSED
+"runFeatureFile(""Include/features/SCRUM-67 Contract Notice Search and Results.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:20,15-04-2025 11:27:20,0.001s,NOT_RUN
+"runFeatureFile(""Include/features/SCRUM-67 Contract Notice Search and Results.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:20,15-04-2025 11:27:20,0.001s,NOT_RUN
+"openBrowser("""")",Chrome 135.0.7049.85,,,15-04-2025 11:27:20,15-04-2025 11:27:23,3.165s,PASSED
+"navigateToUrl(""https://www.tenders.gov.au/"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:23,15-04-2025 11:27:24,1.409s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:24,15-04-2025 11:27:25,1.270s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notices AusTender/span_13-Apr-2025 to 19-Apr-2025""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:25,15-04-2025 11:27:26,0.567s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notices AusTender/span_30-Mar-2025 to 05-Apr-2025""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:26,15-04-2025 11:27:27,0.514s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AusTender/Page_Contract Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c""), ""30-Mar-2025,05-Apr-2025"", true)",Chrome 135.0.7049.85,,,15-04-2025 11:27:27,15-04-2025 11:27:28,1.009s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notices AusTender/button_View""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:28,15-04-2025 11:27:28,0.446s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notice List AusTender/a_Full Details""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:28,15-04-2025 11:27:29,1.297s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notice View - CN4141271 AusTender/a_SON3965020""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:29,15-04-2025 11:27:30,0.909s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_PNL4117""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:30,15-04-2025 11:27:31,1.205s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Government Buyers""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:31,15-04-2025 11:27:33,1.407s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Government Buyers AusTender/a_Return to top""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:33,15-04-2025 11:27:34,0.697s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Government Buyers AusTender/a_Standing Offer Notice View - SON3965020""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:34,15-04-2025 11:27:35,1.537s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Panel View - PNL4117""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:35,15-04-2025 11:27:37,1.895s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Standing Offer Notice View - SON3965020""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:37,15-04-2025 11:27:38,0.973s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Standing Offer Notice View - SON3965020""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:38,15-04-2025 11:27:39,1.157s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Contract Notices""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:39,15-04-2025 11:27:40,1.258s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notices AusTender/i""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:40,15-04-2025 11:27:41,0.878s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN3712064""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:41,15-04-2025 11:27:43,1.451s,PASSED
+closeBrowser(),Chrome 135.0.7049.85,,,15-04-2025 11:27:43,15-04-2025 11:27:43,0.267s,PASSED
+,,,,,,,
+Test Cases/Tenders-Portal/SCRUM-68 Senate Order Viewing,Chrome 135.0.7049.85,"Summary: Senate Order Viewing
+Description: h2. Feature: Senate Order Viewing
+
+URL: [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]
+
+h3. Scenario: Verify Senate Order Listings
+
+·         Given I navigate to [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]
+
+·         Then I should see a list of Senate Order reports
+
+·         And each row should display Agency, Date Published, and PDF/Excel links",jira-integration,15-04-2025 11:27:43,15-04-2025 11:27:56,13.211s,PASSED
+"runFeatureFile(""Include/features/SCRUM-68 Senate Order Viewing.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:43,15-04-2025 11:27:43,0.002s,NOT_RUN
+"runFeatureFile(""Include/features/SCRUM-68 Senate Order Viewing.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:43,15-04-2025 11:27:43,0.001s,NOT_RUN
+"openBrowser("""")",Chrome 135.0.7049.85,,,15-04-2025 11:27:43,15-04-2025 11:27:46,3.070s,PASSED
+"navigateToUrl(""https://www.tenders.gov.au/"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:46,15-04-2025 11:27:47,0.998s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Standing Offers""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:47,15-04-2025 11:27:48,1.239s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_13-Apr-2025 to 19-Apr-2025""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:48,15-04-2025 11:27:49,0.771s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_30-Mar-2025 to 05-Apr-2025""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:49,15-04-2025 11:27:50,0.509s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c""), ""30-Mar-2025,05-Apr-2025"", true)",Chrome 135.0.7049.85,,,15-04-2025 11:27:50,15-04-2025 11:27:51,0.984s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notices AusTender/button_View""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:51,15-04-2025 11:27:51,0.439s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_SON4139337""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:51,15-04-2025 11:27:52,1.264s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Current Suppliers (2)""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:52,15-04-2025 11:27:53,0.567s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Previous Suppliers""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:53,15-04-2025 11:27:54,0.666s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Participant Agencies""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:54,15-04-2025 11:27:54,0.339s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Standing Offer Notice List""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:54,15-04-2025 11:27:54,0.599s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_Standing Offers""))",Chrome 135.0.7049.85,,,15-04-2025 11:27:54,15-04-2025 11:27:56,1.397s,PASSED
+closeBrowser(),Chrome 135.0.7049.85,,,15-04-2025 11:27:56,15-04-2025 11:27:56,0.304s,PASSED
+,,,,,,,
+Test Cases/Tenders-Portal/SCRUM-69 Planned Procurements,Chrome 135.0.7049.85,"Summary: Planned Procurements
+Description: h2. Feature: Planned Procurements
+
+URL: [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]
+
+h3. Scenario: Search Planned Procurements
+
+·         Given I navigate to [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]
+
+·         When I enter 'Infrastructure' in the textbox Keyword
+
+·         And I select 'Department of Infrastructure' from the Agency dropdown
+
+·         And I click the Search button
+
+·         Then I should see results with Agency name, Procurement Title and Status",jira-integration,15-04-2025 11:27:56,15-04-2025 11:28:22,25.638s,PASSED
+"runFeatureFile(""Include/features/SCRUM-69 Planned Procurements.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:27:56,15-04-2025 11:27:56,0.002s,NOT_RUN
+"openBrowser("""")",Chrome 135.0.7049.85,,,15-04-2025 11:27:56,15-04-2025 11:28:00,3.319s,PASSED
+"navigateToUrl(""https://www.tenders.gov.au/"")",Chrome 135.0.7049.85,,,15-04-2025 11:28:00,15-04-2025 11:28:00,0.926s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Planned Procurements""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:00,15-04-2025 11:28:02,1.597s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:02,15-04-2025 11:28:03,0.931s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_South Bandiana Building Works, VIC""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:03,15-04-2025 11:28:04,1.452s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Current ATM View - EST10524 AusTender/a_Annual Procurement Plan List""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:04,15-04-2025 11:28:06,1.352s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/i""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:06,15-04-2025 11:28:07,1.092s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/div_EST10524 South Bandiana Building Works _33adc5""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:28:07,15-04-2025 11:28:08,1.024s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/h2_Search Results""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:28:08,15-04-2025 11:28:08,0.240s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Download Results""), 0)",Chrome 135.0.7049.85,,,15-04-2025 11:28:08,15-04-2025 11:28:08,0.235s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Last Updated""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:08,15-04-2025 11:28:09,0.293s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Title""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:09,15-04-2025 11:28:09,0.515s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_Relevance                           _59b6fc""), ""Title"", true)",Chrome 135.0.7049.85,,,15-04-2025 11:28:09,15-04-2025 11:28:10,0.979s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_Sort""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:10,15-04-2025 11:28:11,0.702s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_2""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:11,15-04-2025 11:28:12,1.489s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/a_Planned Procurements""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:12,15-04-2025 11:28:14,1.626s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_List By Agency""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:14,15-04-2025 11:28:15,1.382s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/button_-- Please select --""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:15,15-04-2025 11:28:16,0.862s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/span_Administrative Appeals Tribunal""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:16,15-04-2025 11:28:17,0.545s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/select_-- Please select ---- Please select _a82724""), ""077c76eb-918f-9197-880d-1aa6a58e5874"", true)",Chrome 135.0.7049.85,,,15-04-2025 11:28:17,15-04-2025 11:28:19,2.130s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan List AusTender/input_Workplace Gender Equality Agency_btn-_b78b20""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:19,15-04-2025 11:28:20,0.925s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Annual Procurement Plan View - Adminis_2c9ef6/a_Planned Procurements""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:20,15-04-2025 11:28:21,1.503s,PASSED
+closeBrowser(),Chrome 135.0.7049.85,,,15-04-2025 11:28:21,15-04-2025 11:28:22,0.440s,PASSED
+,,,,,,,
+Test Cases/Tenders-Portal/SCRUM-70 User Registration Page,Chrome 135.0.7049.85,"Summary: User Registration Page
+Description: h2. Feature: User Registration Page
+
+URL: [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]
+
+h3. Scenario: Verify Registration Fields
+
+·         Given I navigate to [https://www.tenders.gov.au/RegisteredUser/Register|https://www.tenders.gov.au/RegisteredUser/Register]
+
+·         Then I should see textboxes for Email, Password, Confirm Password, Organisation Name, and Contact Details
+
+·         And I should see the Register button",jira-integration,15-04-2025 11:28:23,15-04-2025 11:28:23,0.035s,FAILED
+"runFeatureFile(""Include/features/SCRUM-70 User Registration Page.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:28:23,15-04-2025 11:28:23,0.022s,FAILED
+,,,,,,,
+Test Cases/Tenders-Portal/SCRUM-72 Validate CN search,Chrome 135.0.7049.85,"Summary: Validate CN search
+Description: *Test Case 1: Verify that only users with the Admin role can access admin features*",jira-integration,15-04-2025 11:28:23,15-04-2025 11:28:35,12.079s,PASSED
+"runFeatureFile(""Include/features/SCRUM-72 Validate CN search.feature"")",Chrome 135.0.7049.85,,,15-04-2025 11:28:23,15-04-2025 11:28:23,0.001s,NOT_RUN
+"openBrowser("""")",Chrome 135.0.7049.85,,,15-04-2025 11:28:23,15-04-2025 11:28:26,2.832s,PASSED
+"navigateToUrl(""https://www.tenders.gov.au/"")",Chrome 135.0.7049.85,,,15-04-2025 11:28:26,15-04-2025 11:28:29,3.156s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:29,15-04-2025 11:28:31,1.462s,PASSED
+"setText(findTestObject(""Object Repository/AusTender/Page_Contract Notices AusTender/input_Use the drop down menu to specify an _43aab4""), ""education"")",Chrome 135.0.7049.85,,,15-04-2025 11:28:31,15-04-2025 11:28:32,1.362s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notices AusTender/i""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:32,15-04-2025 11:28:32,0.310s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN4144091""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:32,15-04-2025 11:28:34,1.584s,PASSED
+"click(findTestObject(""Object Repository/AusTender/Page_Contract Notice View - CN4144091 AusTender/a_Contract Notices""))",Chrome 135.0.7049.85,,,15-04-2025 11:28:34,15-04-2025 11:28:35,1.020s,PASSED
+closeBrowser(),Chrome 135.0.7049.85,,,15-04-2025 11:28:35,15-04-2025 11:28:35,0.298s,PASSED
