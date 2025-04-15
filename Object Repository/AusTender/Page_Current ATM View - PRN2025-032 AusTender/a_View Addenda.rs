@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View Addenda</name>
+   <tag></tag>
+   <elementGuidId>088d6937-5322-4fff-8a9e-0ad85ad8c023</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/div[3]/div[2]/div/div[17]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.mouse-focus.focus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;View Addenda&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cb8d4a64-75b1-4e4d-a257-5b63450e9ffe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Atm/ViewDocuments/603b40ee-fa19-4e0b-9cbd-d2af3b2b220c</value>
+      <webElementGuid>ce1129e7-8811-45ce-86cc-c42f734d97f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mouse-focus focus</value>
+      <webElementGuid>f15ab545-8b6b-4490-bc68-0a6adcb75f30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Addenda</value>
+      <webElementGuid>e34daab2-9d6a-43ea-91f7-1241be8d1e37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;box boxW listInner&quot;]/div[@class=&quot;list-desc&quot;]/div[@class=&quot;list-desc-inner&quot;]/a[@class=&quot;mouse-focus focus&quot;]</value>
+      <webElementGuid>ab599568-e9bb-4ec0-9011-b4bd5ba8aa0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div[3]/div[2]/div/div[17]/div/a</value>
+      <webElementGuid>17214587-d81c-4922-8868-fb30398629be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View Addenda')]</value>
+      <webElementGuid>092895be-da7a-41a0-9f67-46b66727eea8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Addenda Available'])[1]/following::a[1]</value>
+      <webElementGuid>f96d8670-93f5-458d-8a55-e847921ed013</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address'])[4]/preceding::a[1]</value>
+      <webElementGuid>9347476d-55a5-4f02-8095-1a52f3d1cf3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View Addenda']/parent::*</value>
+      <webElementGuid>b9b5a791-5460-4401-aa04-50b94379fb6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/Atm/ViewDocuments/603b40ee-fa19-4e0b-9cbd-d2af3b2b220c')])[2]</value>
+      <webElementGuid>f7d41b94-999c-42f1-8bbf-650831c1a85b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[17]/div/a</value>
+      <webElementGuid>63728e2d-c012-4fe0-8738-a10534f2541a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/Atm/ViewDocuments/603b40ee-fa19-4e0b-9cbd-d2af3b2b220c' and (text() = 'View Addenda' or . = 'View Addenda')]</value>
+      <webElementGuid>4b3440d0-5783-4bc9-ad3f-e02d800fc817</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

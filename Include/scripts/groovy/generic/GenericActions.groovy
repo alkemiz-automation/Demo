@@ -1,3 +1,69 @@
+/*
+ *  Provide generic actions for web automation tasks.
+ *
+ *      - First method: openBrowser
+ *          - Parameters:
+ *              - String url: the URL to navigate to
+ *          - Steps:
+ *              Open a browser, navigate to the specified URL, and maximize the window. Log an error if any exception occurs.
+ *      - Second method: inputText
+ *          - Parameters:
+ *              - TestObject to: the test object where text will be input
+ *              - String value: the text value to input
+ *          - Steps:
+ *              Wait for the element to be visible, highlight it, clear any existing text, and send the new text value. Log an error if any exception occurs.
+ *      - Third method: click
+ *          - Parameters:
+ *              - TestObject to: the test object to click
+ *          - Steps:
+ *              Wait for the element to be clickable, highlight it, and perform the click action. Log an error if any exception occurs.
+ *      - Fourth method: selectDropdownItem
+ *          - Parameters:
+ *              - String dropdownLocator: the locator for the dropdown
+ *              - String itemLabel: the label of the item to select
+ *          - Steps:
+ *              Click the dropdown, find the item by its label using XPath, and click the item. Log an error if any exception occurs.
+ *      - Fifth method: verifyText
+ *          - Parameters:
+ *              - TestObject to: the test object to verify text
+ *              - String expectedText: the expected text to verify
+ *          - Steps:
+ *              Wait for the element to be visible, get the actual text, and assert that it contains the expected text. Log an error if any exception occurs.
+ *      - Sixth method: verifyExactText
+ *          - Parameters:
+ *              - TestObject to: the test object to verify exact text
+ *              - String expectedText: the expected exact text to verify
+ *          - Steps:
+ *              Wait for the element to be visible, get the actual text, and assert that it matches the expected text exactly. Log an error if any exception occurs.
+ *      - Seventh method: verifyImage
+ *          - Parameters:
+ *              - TestObject to: the test object representing the image
+ *              - String altText: the alternative text for the image (optional)
+ *          - Steps:
+ *              Verify that the image element is visible and highlight it. Log an error if any exception occurs.
+ *      - Eighth method: checkCheckbox
+ *          - Parameters:
+ *              - TestObject to: the test object representing the checkbox
+ *          - Steps:
+ *              Wait for the checkbox to be visible, check if it is not already checked, and click it if necessary. Log an error if any exception occurs.
+ *      - Ninth method: selectRadioButton
+ *          - Parameters:
+ *              - TestObject to: the test object representing the radio button
+ *          - Steps:
+ *              Wait for the radio button to be visible and click it. Log an error if any exception occurs.
+ *      - Tenth method: verifyHeading
+ *          - Parameters:
+ *              - TestObject to: the test object representing the heading
+ *              - String expected: the expected heading text
+ *          - Steps:
+ *              Call verifyExactText method to validate the heading text.
+ *      - Eleventh method: verifyDescription
+ *          - Parameters:
+ *              - TestObject to: the test object representing the description
+ *              - String expected: the expected description text
+ *          - Steps:
+ *              Call verifyText method to validate the description text.
+ */
 package generic
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -130,3 +196,4 @@ class GenericActions {
 		verifyText(to, expected)
 	}
 }
+

@@ -17,4 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/SCRUM-68 Senate Order Viewing.feature')
+not_run: CucumberKW.runFeatureFile('Include/features/SCRUM-68 Senate Order Viewing.feature')
+
+not_run: CucumberKW.runFeatureFile('Include/features/SCRUM-68 Senate Order Viewing.feature')
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.tenders.gov.au/')
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Standing Offers'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_13-Apr-2025 to 19-Apr-2025'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notices AusTender/span_30-Mar-2025 to 05-Apr-2025'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AusTender/Page_Standing Offer Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c'), 
+    '30-Mar-2025,05-Apr-2025', true)
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notices AusTender/button_View'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_SON4139337'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Current Suppliers (2)'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Previous Suppliers'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Participant Agencies'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice View - SON413933_6dafb6/a_Standing Offer Notice List'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice List AusTender/a_Standing Offers'))
+
+WebUI.closeBrowser()
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Title</name>
+   <tag></tag>
+   <elementGuidId>84651f62-f685-4a3c-90c5-8881dc1894f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='sortForm']/div/div/div/div[2]/div/div[2]/div/div/div/div/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.mouse-focus.focus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Title&quot;i] >> a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>03e06cda-3388-4669-baa2-46e17ea6e333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>07297a27-68ac-41c6-8a45-6d52941c77b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mouse-focus focus</value>
+      <webElementGuid>b30dad58-e3d7-4ba9-82d9-5344b1a72fea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Title</value>
+      <webElementGuid>dd7cc01c-aa90-493d-be48-e9ccc6dc35f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sortForm&quot;)/div[1]/div[@class=&quot;result-filter&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-7 col-md-7 pull-right&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9&quot;]/div[@class=&quot;filter-controls&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;btn-group bootstrap-select show-tick open&quot;]/div[@class=&quot;dropdown-menu open&quot;]/ul[@class=&quot;dropdown-menu inner&quot;]/li[3]/a[@class=&quot;mouse-focus focus&quot;]</value>
+      <webElementGuid>23260650-3c3e-45bf-8041-adae97518cd4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='sortForm']/div/div/div/div[2]/div/div[2]/div/div/div/div/ul/li[3]/a</value>
+      <webElementGuid>079f40af-bb45-4390-af74-16181f0dd9cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Date &amp; Time - Descending'])[1]/following::a[1]</value>
+      <webElementGuid>56b099a6-9e26-455e-a017-28d6d855fe9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Date &amp; Time - Ascending'])[2]/following::a[2]</value>
+      <webElementGuid>b2ac7c99-af60-459e-ad84-c4245be6f10c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ATM ID'])[1]/preceding::a[1]</value>
+      <webElementGuid>ca5a9e5d-5b3b-4bde-9ea0-0f3b28962df0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/ul/li[3]/a</value>
+      <webElementGuid>1c89ac21-6b6c-4942-8e50-2e2d558f5897</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Title' or . = 'Title')]</value>
+      <webElementGuid>c8c71f00-3313-4bdc-8016-5cbb22fc8626</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

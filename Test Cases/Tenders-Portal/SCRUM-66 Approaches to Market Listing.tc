@@ -36,17 +36,17 @@ h3. Scenario: Validate ATM Card Details
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
-   <comment>Feature: Approaches to Market Listing
-URL: [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]
-Scenario: Search and View ATM Listings
-Given I navigate to [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]
-When I enter 'Education' in the textbox Keyword
-And I click on the button Search
-Then I should see a list of ATM records displayed
-And I should see text 'Close Date &amp; Time' on each record
-Scenario: Validate ATM Card Details
-Given I am on the ATM listing page
-Then I should see the ATM ID, Agency, Category, and Description for each record
+   <comment>Feature: Approaches to Market Listing&#xd;
+URL: [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]&#xd;
+Scenario: Search and View ATM Listings&#xd;
+Given I navigate to [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]&#xd;
+When I enter 'Education' in the textbox Keyword&#xd;
+And I click on the button Search&#xd;
+Then I should see a list of ATM records displayed&#xd;
+And I should see text 'Close Date &amp; Time' on each record&#xd;
+Scenario: Validate ATM Card Details&#xd;
+Given I am on the ATM listing page&#xd;
+Then I should see the ATM ID, Agency, Category, and Description for each record&#xd;
 And each ATM record should have a Full Details link</comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>2df71b7e-018d-43ae-a5a0-8aeb229d4c59</testCaseGuid>

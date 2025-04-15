@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c</name>
+   <tag></tag>
+   <elementGuidId>444a2b97-ab7b-401c-bbd3-70bf9aab8760</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='Weekly']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Weekly</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Contract Notices&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>0d97259e-cb7c-4763-acd8-ba5db2aafc87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b336a91d-de2a-4073-9c0c-bba26aeffb31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selectpicker</value>
+      <webElementGuid>85a81bda-d1b6-416a-bc83-cefaadfd69d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-actions-box</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>4455af42-0979-47ee-9e26-58d74f5792ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-header</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d77a79d7-8c2c-40da-929d-dbb77c73bf88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-live-search</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>b271c786-8ee5-463f-9014-a9021990473a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-width</name>
+      <type>Main</type>
+      <value>100%</value>
+      <webElementGuid>c4a91eef-b9f8-43c8-aeae-1995d5c9b895</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Weekly</value>
+      <webElementGuid>c9a1d53d-55e0-4df1-b3b6-51aeef5fb622</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Weekly</value>
+      <webElementGuid>b901b71e-5c17-4fc9-b052-8ff37e62f2d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-98</value>
+      <webElementGuid>98f73b88-c35c-4415-ae67-8414f571789e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>13-Apr-2025 to 19-Apr-2025
+06-Apr-2025 to 12-Apr-2025
+30-Mar-2025 to 05-Apr-2025
+</value>
+      <webElementGuid>d8cb0b67-f26d-4e5b-ae9e-f93baa59b471</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Weekly&quot;)</value>
+      <webElementGuid>d2445897-9991-4c25-b8c5-2371f0bb6fc6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='Weekly']</value>
+      <webElementGuid>294ca4bd-b94a-409e-9ff4-3281e03f10aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/div[3]/div[2]/div/div/form/div/div[2]/div/div/div/select</value>
+      <webElementGuid>e9d90abd-ff30-42d2-a6ac-cb0a0b6c14ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a date range to view recently published Contract Notices.'])[1]/following::select[1]</value>
+      <webElementGuid>a46b7ae5-d0ad-4e70-a7b4-bf0fd71809c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View by Publish Date'])[2]/following::select[1]</value>
+      <webElementGuid>e675fdb8-3f43-4a24-8771-38f488bebaf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/preceding::select[1]</value>
+      <webElementGuid>733f582a-2756-4fb8-9a54-07d3492a1807</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keyword'])[1]/preceding::select[1]</value>
+      <webElementGuid>f4427f0e-60df-44a4-9065-5134f50f66d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>dea04cc6-8afe-492f-8bcb-cfb9b9ab9ff4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'Weekly' and @name = 'Weekly' and (text() = '13-Apr-2025 to 19-Apr-2025
+06-Apr-2025 to 12-Apr-2025
+30-Mar-2025 to 05-Apr-2025
+' or . = '13-Apr-2025 to 19-Apr-2025
+06-Apr-2025 to 12-Apr-2025
+30-Mar-2025 to 05-Apr-2025
+')]</value>
+      <webElementGuid>a102be30-a731-4775-b107-c091b49fa9a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

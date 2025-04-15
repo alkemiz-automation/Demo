@@ -17,4 +17,48 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/SCRUM-67 Contract Notice Search and Results.feature')
+not_run: CucumberKW.runFeatureFile('Include/features/SCRUM-67 Contract Notice Search and Results.feature')
+
+not_run: CucumberKW.runFeatureFile('Include/features/SCRUM-67 Contract Notice Search and Results.feature')
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.tenders.gov.au/')
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Contract Notices'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notices AusTender/span_13-Apr-2025 to 19-Apr-2025'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notices AusTender/span_30-Mar-2025 to 05-Apr-2025'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AusTender/Page_Contract Notices AusTender/select_13-Apr-2025 to 19-Apr-202506-Apr-202_2ac82c'), 
+    '30-Mar-2025,05-Apr-2025', true)
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notices AusTender/button_View'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notice List AusTender/a_Full Details'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notice View - CN4141271 AusTender/a_SON3965020'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_PNL4117'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Government Buyers'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Government Buyers AusTender/a_Return to top'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Government Buyers AusTender/a_Standing Offer Notice View - SON3965020'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Panel View - PNL4117'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Panel View - PNL4117 AusTender/a_Standing Offer Notice View - SON3965020'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Standing Offer Notice View - SON3965020'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Standing Offer Notice View - SON396502_57ed20/a_Contract Notices'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notices AusTender/i'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Contract Notice List AusTender/a_CN3712064'))
+
+WebUI.closeBrowser()
+

@@ -17,4 +17,53 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/SCRUM-66 Approaches to Market Listing.feature')
+not_run: CucumberKW.runFeatureFile('Include/features/SCRUM-66 Approaches to Market Listing.feature')
+
+not_run: CucumberKW.runFeatureFile('Include/features/SCRUM-66 Approaches to Market Listing.feature')
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.tenders.gov.au/')
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_AusTender Homepage AusTender/a_Approaches to Market'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/p_Provision of Security Risk Assessment Services'), 
+    'Provision of Security Risk Assessment Services')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/span_Close Date  Time - Ascending'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/a_Title'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/select_Close Date  Time - Ascending        _3f828b'), 
+    'Title', true)
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/button_Sort'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/p_ADFA Library Minor Refurbishment, ACT'), 
+    'ADFA Library Minor Refurbishment, ACT')
+
+WebUI.setText(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/input_Keyword_Keyword'), 'education')
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/button_Search'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Current ATM List AusTender/a_PROC2010'))
+
+WebUI.rightClick(findTestObject('Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_ATM Documents'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_Lodgement Page'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Lodge a Response - PROC2010 AusTender/a_Current ATM View - PROC2010'))
+
+WebUI.rightClick(findTestObject('Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_Current ATM View - PROC2010 AusTender/a_View Addenda'))
+
+WebUI.click(findTestObject('Object Repository/AusTender/Page_ATM Documents - PROC2010 AusTender/a_Current ATM View - PROC2010'))
+
