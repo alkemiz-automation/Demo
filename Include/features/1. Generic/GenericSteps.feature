@@ -25,6 +25,7 @@ Feature: All generic steps available Katalon Framework
   Scenario: Listing the steps to execute using the plain english
     Given I Navigate to https://www.frasersproperty.com.au/NSW/Ed-Square/Contact-Us/Enquire-Now
     When I Enter My First Name in the textbox First Name
+    And I select "Australian Bureau of Statistics" from the "Agency" dropdown
     And I Enter My Last Name in the textbox last Name
     And I Enter test@mailinator.com in the textbox email
     And I Enter 0481819814 in the textbox Phone

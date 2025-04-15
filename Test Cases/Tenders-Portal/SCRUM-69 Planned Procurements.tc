@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Planned Procurements&#xd;
+Description: h2. Feature: Planned Procurements
+
+URL: [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]
+
+h3. Scenario: Search Planned Procurements
+
+·         Given I navigate to [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]
+
+·         When I enter 'Infrastructure' in the textbox Keyword
+
+·         And I select 'Department of Infrastructure' from the Agency dropdown
+
+·         And I click the Search button
+
+·         Then I should see results with Agency name, Procurement Title and Status</description>
+   <name>SCRUM-69 Planned Procurements</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10091&quot;:&quot;Feature: Planned Procurements\nURL: [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]\nScenario: Search Planned Procurements\nGiven I navigate to [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]\nWhen I enter \u0027Infrastructure\u0027 in the textbox Keyword\nAnd I select \u0027Department of Infrastructure\u0027 from the Agency dropdown\nAnd I click the Search button\nThen I should see results with Agency name, Procurement Title and Status&quot;,&quot;customfield_10019&quot;:&quot;0|i000f3:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://alkemiz-au.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;SCRUM&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;TaaS&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Planned Procurements&quot;,&quot;description&quot;:&quot;h2. Feature: Planned Procurements\n\nURL: [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]\n\nh3. Scenario: Search Planned Procurements\n\n·         Given I navigate to [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]\n\n·         When I enter \u0027Infrastructure\u0027 in the textbox Keyword\n\n·         And I select \u0027Department of Infrastructure\u0027 from the Agency dropdown\n\n·         And I click the Search button\n\n·         Then I should see results with Agency name, Procurement Title and Status&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;jag.sethi@alkemiz.com.au&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Jag Sethi&quot;,&quot;accountId&quot;:&quot;712020:5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/user?accountId\u003d712020%3A5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/SCRUM-69/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/10135&quot;,&quot;key&quot;:&quot;SCRUM-69&quot;,&quot;id&quot;:10135}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>Feature: Planned Procurements
+URL: [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]
+Scenario: Search Planned Procurements
+Given I navigate to [https://www.tenders.gov.au/app/list|https://www.tenders.gov.au/app/list]
+When I enter 'Infrastructure' in the textbox Keyword
+And I select 'Department of Infrastructure' from the Agency dropdown
+And I click the Search button
+Then I should see results with Agency name, Procurement Title and Status</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d1671e97-d9cb-4aee-9176-e7fe3b7b6330</testCaseGuid>
+</TestCaseEntity>

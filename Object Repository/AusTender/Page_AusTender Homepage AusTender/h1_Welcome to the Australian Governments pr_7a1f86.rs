@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Welcome to the Australian Governments pr_7a1f86</name>
+   <tag></tag>
+   <elementGuidId>9fb5f4b6-cab0-4cc6-b8dc-7f248c20be17</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainv']/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Welcome to the Australian Government's procurement information system&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>d80e6d05-018f-40ad-8d93-a8848cd97ec2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to the Australian Government's procurement information system</value>
+      <webElementGuid>c59174af-aee9-438f-b8cf-789a5089d80b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainv&quot;)/h1[1]</value>
+      <webElementGuid>88080770-3557-4853-b68c-76d280c6e079</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainv']/h1</value>
+      <webElementGuid>0aa445c2-0b28-40b8-a9e3-8e583cc2d9cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To access this element change to forms mode OFF'])[1]/following::h1[1]</value>
+      <webElementGuid>9f6dd8d2-a960-48f4-bfbd-8026f9cf56bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[2]/following::h1[1]</value>
+      <webElementGuid>7bdb8c3e-18b3-4e6e-aa81-13777d225b28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AusTender Help and Information Centre.'])[1]/preceding::h1[1]</value>
+      <webElementGuid>e285799d-5b44-4193-8597-729ab743cb08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Opportunities'])[1]/preceding::h1[1]</value>
+      <webElementGuid>8cc798a7-5caf-4d6d-98ae-cf5c0e9f7b49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>16a07d34-7532-4ddd-8286-0417a8774d18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = concat(&quot;Welcome to the Australian Government&quot; , &quot;'&quot; , &quot;s procurement information system&quot;) or . = concat(&quot;Welcome to the Australian Government&quot; , &quot;'&quot; , &quot;s procurement information system&quot;))]</value>
+      <webElementGuid>a4684b3b-c92c-4c78-8a5c-24b37fe3d2ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

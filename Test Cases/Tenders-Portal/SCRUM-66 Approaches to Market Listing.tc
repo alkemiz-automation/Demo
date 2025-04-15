@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Approaches to Market Listing&#xd;
+Description: h2. Feature: Approaches to Market Listing
+
+URL: [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]
+
+h3. Scenario: Search and View ATM Listings
+
+·         Given I navigate to [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]
+
+·         When I enter 'Education' in the textbox Keyword
+
+·         And I click on the button Search
+
+·         Then I should see a list of ATM records displayed
+
+·         And I should see text 'Close Date &amp; Time' on each record
+
+h3. Scenario: Validate ATM Card Details
+
+·         Given I am on the ATM listing page
+
+·         Then I should see the ATM ID, Agency, Category, and Description for each record
+
+·         And each ATM record should have a Full Details link</description>
+   <name>SCRUM-66 Approaches to Market Listing</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10091&quot;:&quot;Feature: Approaches to Market Listing\nURL: [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]\nScenario: Search and View ATM Listings\nGiven I navigate to [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]\nWhen I enter \u0027Education\u0027 in the textbox Keyword\nAnd I click on the button Search\nThen I should see a list of ATM records displayed\nAnd I should see text \u0027Close Date \u0026 Time\u0027 on each record\nScenario: Validate ATM Card Details\nGiven I am on the ATM listing page\nThen I should see the ATM ID, Agency, Category, and Description for each record\nAnd each ATM record should have a Full Details link&quot;,&quot;customfield_10019&quot;:&quot;0|i000ef:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://alkemiz-au.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;SCRUM&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;TaaS&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Approaches to Market Listing&quot;,&quot;description&quot;:&quot;h2. Feature: Approaches to Market Listing\n\nURL: [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]\n\nh3. Scenario: Search and View ATM Listings\n\n·         Given I navigate to [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]\n\n·         When I enter \u0027Education\u0027 in the textbox Keyword\n\n·         And I click on the button Search\n\n·         Then I should see a list of ATM records displayed\n\n·         And I should see text \u0027Close Date \u0026 Time\u0027 on each record\n\nh3. Scenario: Validate ATM Card Details\n\n·         Given I am on the ATM listing page\n\n·         Then I should see the ATM ID, Agency, Category, and Description for each record\n\n·         And each ATM record should have a Full Details link&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;jag.sethi@alkemiz.com.au&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Jag Sethi&quot;,&quot;accountId&quot;:&quot;712020:5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/user?accountId\u003d712020%3A5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/SCRUM-66/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/10132&quot;,&quot;key&quot;:&quot;SCRUM-66&quot;,&quot;id&quot;:10132}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>Feature: Approaches to Market Listing&#xd;
+URL: [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]&#xd;
+Scenario: Search and View ATM Listings&#xd;
+Given I navigate to [https://www.tenders.gov.au/atm|https://www.tenders.gov.au/atm]&#xd;
+When I enter 'Education' in the textbox Keyword&#xd;
+And I click on the button Search&#xd;
+Then I should see a list of ATM records displayed&#xd;
+And I should see text 'Close Date &amp; Time' on each record&#xd;
+Scenario: Validate ATM Card Details&#xd;
+Given I am on the ATM listing page&#xd;
+Then I should see the ATM ID, Agency, Category, and Description for each record&#xd;
+And each ATM record should have a Full Details link</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2df71b7e-018d-43ae-a5a0-8aeb229d4c59</testCaseGuid>
+</TestCaseEntity>

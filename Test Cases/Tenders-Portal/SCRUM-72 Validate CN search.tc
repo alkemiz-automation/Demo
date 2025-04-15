@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Validate CN search&#xd;
+Description: *Test Case 1: Verify that only users with the Admin role can access admin features*</description>
+   <name>SCRUM-72 Validate CN search</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10091&quot;:&quot;Feature: Contract Notice Search and Results\nURL: [[https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]|https://www.tenders.gov.au/cn/search%7Chttps://www.tenders.gov.au/cn/search%5D]\nScenario: Search Contract Notices by Date\nGiven I Navigate to [[https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]|https://www.tenders.gov.au/cn/search%7Chttps://www.tenders.gov.au/cn/search%5D]\nWhen I select \u0027Publish Date\u0027 and input date range \u002701/01/2024 to 31/03/2025\u0027\nAnd I Click on the button View\nThen I should see a list of contract notices with publish date, agency, and value\nScenario: Advanced Search with Supplier Name\nGiven I am on the Contract Notice search page\nWhen I Enter \u0027Dynamic Aspect\u0027 in the Supplier Name textbox\nAnd I Click the search button\nThen I should see results matching the supplier with their respective CN ID and Contract Value&quot;,&quot;customfield_10019&quot;:&quot;0|i000fr:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://alkemiz-au.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;SCRUM&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;TaaS&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Validate CN search&quot;,&quot;description&quot;:&quot;*Test Case 1: Verify that only users with the Admin role can access admin features*&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;jag.sethi@alkemiz.com.au&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Jag Sethi&quot;,&quot;accountId&quot;:&quot;712020:5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/user?accountId\u003d712020%3A5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/SCRUM-72/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/10198&quot;,&quot;key&quot;:&quot;SCRUM-72&quot;,&quot;id&quot;:10198}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>Feature: Contract Notice Search and Results&#xd;
+URL: [[https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]|https://www.tenders.gov.au/cn/search%7Chttps://www.tenders.gov.au/cn/search%5D]&#xd;
+Scenario: Search Contract Notices by Date&#xd;
+Given I Navigate to [[https://www.tenders.gov.au/cn/search|https://www.tenders.gov.au/cn/search]|https://www.tenders.gov.au/cn/search%7Chttps://www.tenders.gov.au/cn/search%5D]&#xd;
+When I select 'Publish Date' and input date range '01/01/2024 to 31/03/2025'&#xd;
+And I Click on the button View&#xd;
+Then I should see a list of contract notices with publish date, agency, and value&#xd;
+Scenario: Advanced Search with Supplier Name&#xd;
+Given I am on the Contract Notice search page&#xd;
+When I Enter 'Dynamic Aspect' in the Supplier Name textbox&#xd;
+And I Click the search button&#xd;
+Then I should see results matching the supplier with their respective CN ID and Contract Value</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b2dfbf4-7866-40b6-949f-90c1d368c694</testCaseGuid>
+</TestCaseEntity>

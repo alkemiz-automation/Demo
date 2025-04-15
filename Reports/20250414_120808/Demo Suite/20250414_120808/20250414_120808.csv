@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Suite,,,,14-04-2025 12:08:14,14-04-2025 12:08:16,1.724s,FAILED
+,,,,,,,
+Test Cases/Tenders-Portal/SCRUM-71 Validate Navigation Links on AusTender Website,,"Summary: Validate Navigation Links on AusTender Website
+Description: ",jira-integration,14-04-2025 12:08:16,14-04-2025 12:08:16,0.046s,FAILED
+"runFeatureFile(""Include/features/SCRUM-71 Validate Navigation Links on AusTender Website.feature"")",,,,14-04-2025 12:08:16,14-04-2025 12:08:16,0.029s,FAILED

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Senate Order Viewing&#xd;
+Description: h2. Feature: Senate Order Viewing
+
+URL: [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]
+
+h3. Scenario: Verify Senate Order Listings
+
+·         Given I navigate to [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]
+
+·         Then I should see a list of Senate Order reports
+
+·         And each row should display Agency, Date Published, and PDF/Excel links</description>
+   <name>SCRUM-68 Senate Order Viewing</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10091&quot;:&quot;Feature: Senate Order Viewing\nURL: [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]\nScenario: Verify Senate Order Listings\nGiven I navigate to [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]\nThen I should see a list of Senate Order reports\nAnd each row should display Agency, Date Published, and PDF/Excel links&quot;,&quot;customfield_10019&quot;:&quot;0|i000ev:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://alkemiz-au.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;SCRUM&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;TaaS&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Senate Order Viewing&quot;,&quot;description&quot;:&quot;h2. Feature: Senate Order Viewing\n\nURL: [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]\n\nh3. Scenario: Verify Senate Order Listings\n\n·         Given I navigate to [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]\n\n·         Then I should see a list of Senate Order reports\n\n·         And each row should display Agency, Date Published, and PDF/Excel links&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;jag.sethi@alkemiz.com.au&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Jag Sethi&quot;,&quot;accountId&quot;:&quot;712020:5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/user?accountId\u003d712020%3A5d8efaf8-d696-4e6b-9af0-c96bfa5bfadc&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/SCRUM-68/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://alkemiz-au.atlassian.net/rest/api/2/issue/10134&quot;,&quot;key&quot;:&quot;SCRUM-68&quot;,&quot;id&quot;:10134}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment>Feature: Senate Order Viewing
+URL: [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]
+Scenario: Verify Senate Order Listings
+Given I navigate to [https://www.tenders.gov.au/senateorder/list|https://www.tenders.gov.au/senateorder/list]
+Then I should see a list of Senate Order reports
+And each row should display Agency, Date Published, and PDF/Excel links</comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a2c8e0e-094e-40e6-8d17-ef8b74342b19</testCaseGuid>
+</TestCaseEntity>
